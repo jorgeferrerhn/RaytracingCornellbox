@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/jorge/Escritorio/RaytracingCornellbox/bin/libstb_image.a CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o
-/usr/bin/ranlib /home/jorge/Escritorio/RaytracingCornellbox/bin/libstb_image.a

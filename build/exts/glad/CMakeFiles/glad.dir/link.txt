@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/jorge/Escritorio/RaytracingCornellbox/bin/libglad.a CMakeFiles/glad.dir/glad/glad.c.o
-/usr/bin/ranlib /home/jorge/Escritorio/RaytracingCornellbox/bin/libglad.a

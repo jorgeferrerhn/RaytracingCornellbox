@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/jorge/Escritorio/RaytracingCornellbox/bin/libtinyexr.a CMakeFiles/tinyexr.dir/tinyexr/tinyexr.cpp.o
-/usr/bin/ranlib /home/jorge/Escritorio/RaytracingCornellbox/bin/libtinyexr.a
