@@ -57,10 +57,10 @@ RM = /snap/cmake/1216/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jorge/Escritorio/code
+CMAKE_SOURCE_DIR = /home/jorge/Escritorio/RaytracingCornellbox
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jorge/Escritorio/code/build
+CMAKE_BINARY_DIR = /home/jorge/Escritorio/RaytracingCornellbox/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jorge/Escritorio/code/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles /home/jorge/Escritorio/code/build/apps//CMakeFiles/progress.marks
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles /home/jorge/Escritorio/RaytracingCornellbox/build/apps//CMakeFiles/progress.marks
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/clean
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/preinstall
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/preinstall
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jorge/Escritorio/code/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 apps/CMakeFiles/ytonemap.dir/rule:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/ytonemap.dir/rule
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/ytonemap.dir/rule
 .PHONY : apps/CMakeFiles/ytonemap.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ ytonemap: apps/CMakeFiles/ytonemap.dir/rule
 
 # fast build rule for target.
 ytonemap/fast:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ytonemap.dir/build.make apps/CMakeFiles/ytonemap.dir/build
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ytonemap.dir/build.make apps/CMakeFiles/ytonemap.dir/build
 .PHONY : ytonemap/fast
 
 # Convenience name for target.
 apps/CMakeFiles/ycolorgrade.dir/rule:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/ycolorgrade.dir/rule
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/ycolorgrade.dir/rule
 .PHONY : apps/CMakeFiles/ycolorgrade.dir/rule
 
 # Convenience name for target.
@@ -186,12 +186,12 @@ ycolorgrade: apps/CMakeFiles/ycolorgrade.dir/rule
 
 # fast build rule for target.
 ycolorgrade/fast:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ycolorgrade.dir/build.make apps/CMakeFiles/ycolorgrade.dir/build
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ycolorgrade.dir/build.make apps/CMakeFiles/ycolorgrade.dir/build
 .PHONY : ycolorgrade/fast
 
 # Convenience name for target.
 apps/CMakeFiles/ytrace.dir/rule:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/ytrace.dir/rule
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/ytrace.dir/rule
 .PHONY : apps/CMakeFiles/ytrace.dir/rule
 
 # Convenience name for target.
@@ -200,12 +200,12 @@ ytrace: apps/CMakeFiles/ytrace.dir/rule
 
 # fast build rule for target.
 ytrace/fast:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ytrace.dir/build.make apps/CMakeFiles/ytrace.dir/build
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ytrace.dir/build.make apps/CMakeFiles/ytrace.dir/build
 .PHONY : ytrace/fast
 
 # Convenience name for target.
 apps/CMakeFiles/yview.dir/rule:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/yview.dir/rule
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/yview.dir/rule
 .PHONY : apps/CMakeFiles/yview.dir/rule
 
 # Convenience name for target.
@@ -214,12 +214,12 @@ yview: apps/CMakeFiles/yview.dir/rule
 
 # fast build rule for target.
 yview/fast:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yview.dir/build.make apps/CMakeFiles/yview.dir/build
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yview.dir/build.make apps/CMakeFiles/yview.dir/build
 .PHONY : yview/fast
 
 # Convenience name for target.
 apps/CMakeFiles/yimdiff.dir/rule:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/yimdiff.dir/rule
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/yimdiff.dir/rule
 .PHONY : apps/CMakeFiles/yimdiff.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ yimdiff: apps/CMakeFiles/yimdiff.dir/rule
 
 # fast build rule for target.
 yimdiff/fast:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yimdiff.dir/build.make apps/CMakeFiles/yimdiff.dir/build
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yimdiff.dir/build.make apps/CMakeFiles/yimdiff.dir/build
 .PHONY : yimdiff/fast
 
 # Convenience name for target.
 apps/CMakeFiles/yimalpha.dir/rule:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/yimalpha.dir/rule
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/yimalpha.dir/rule
 .PHONY : apps/CMakeFiles/yimalpha.dir/rule
 
 # Convenience name for target.
@@ -242,12 +242,12 @@ yimalpha: apps/CMakeFiles/yimalpha.dir/rule
 
 # fast build rule for target.
 yimalpha/fast:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yimalpha.dir/build.make apps/CMakeFiles/yimalpha.dir/build
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yimalpha.dir/build.make apps/CMakeFiles/yimalpha.dir/build
 .PHONY : yimalpha/fast
 
 # Convenience name for target.
 apps/CMakeFiles/yconvert.dir/rule:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/yconvert.dir/rule
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/yconvert.dir/rule
 .PHONY : apps/CMakeFiles/yconvert.dir/rule
 
 # Convenience name for target.
@@ -256,12 +256,12 @@ yconvert: apps/CMakeFiles/yconvert.dir/rule
 
 # fast build rule for target.
 yconvert/fast:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yconvert.dir/build.make apps/CMakeFiles/yconvert.dir/build
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yconvert.dir/build.make apps/CMakeFiles/yconvert.dir/build
 .PHONY : yconvert/fast
 
 # Convenience name for target.
 apps/CMakeFiles/yconverts.dir/rule:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/yconverts.dir/rule
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/yconverts.dir/rule
 .PHONY : apps/CMakeFiles/yconverts.dir/rule
 
 # Convenience name for target.
@@ -270,12 +270,12 @@ yconverts: apps/CMakeFiles/yconverts.dir/rule
 
 # fast build rule for target.
 yconverts/fast:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yconverts.dir/build.make apps/CMakeFiles/yconverts.dir/build
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yconverts.dir/build.make apps/CMakeFiles/yconverts.dir/build
 .PHONY : yconverts/fast
 
 # Convenience name for target.
 apps/CMakeFiles/ysamples.dir/rule:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/ysamples.dir/rule
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/ysamples.dir/rule
 .PHONY : apps/CMakeFiles/ysamples.dir/rule
 
 # Convenience name for target.
@@ -284,7 +284,7 @@ ysamples: apps/CMakeFiles/ysamples.dir/rule
 
 # fast build rule for target.
 ysamples/fast:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ysamples.dir/build.make apps/CMakeFiles/ysamples.dir/build
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ysamples.dir/build.make apps/CMakeFiles/ysamples.dir/build
 .PHONY : ysamples/fast
 
 ycolorgrade.o: ycolorgrade.cpp.o
@@ -292,7 +292,7 @@ ycolorgrade.o: ycolorgrade.cpp.o
 
 # target to build an object file
 ycolorgrade.cpp.o:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ycolorgrade.dir/build.make apps/CMakeFiles/ycolorgrade.dir/ycolorgrade.cpp.o
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ycolorgrade.dir/build.make apps/CMakeFiles/ycolorgrade.dir/ycolorgrade.cpp.o
 .PHONY : ycolorgrade.cpp.o
 
 ycolorgrade.i: ycolorgrade.cpp.i
@@ -300,7 +300,7 @@ ycolorgrade.i: ycolorgrade.cpp.i
 
 # target to preprocess a source file
 ycolorgrade.cpp.i:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ycolorgrade.dir/build.make apps/CMakeFiles/ycolorgrade.dir/ycolorgrade.cpp.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ycolorgrade.dir/build.make apps/CMakeFiles/ycolorgrade.dir/ycolorgrade.cpp.i
 .PHONY : ycolorgrade.cpp.i
 
 ycolorgrade.s: ycolorgrade.cpp.s
@@ -308,7 +308,7 @@ ycolorgrade.s: ycolorgrade.cpp.s
 
 # target to generate assembly for a file
 ycolorgrade.cpp.s:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ycolorgrade.dir/build.make apps/CMakeFiles/ycolorgrade.dir/ycolorgrade.cpp.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ycolorgrade.dir/build.make apps/CMakeFiles/ycolorgrade.dir/ycolorgrade.cpp.s
 .PHONY : ycolorgrade.cpp.s
 
 yconvert.o: yconvert.cpp.o
@@ -316,7 +316,7 @@ yconvert.o: yconvert.cpp.o
 
 # target to build an object file
 yconvert.cpp.o:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yconvert.dir/build.make apps/CMakeFiles/yconvert.dir/yconvert.cpp.o
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yconvert.dir/build.make apps/CMakeFiles/yconvert.dir/yconvert.cpp.o
 .PHONY : yconvert.cpp.o
 
 yconvert.i: yconvert.cpp.i
@@ -324,7 +324,7 @@ yconvert.i: yconvert.cpp.i
 
 # target to preprocess a source file
 yconvert.cpp.i:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yconvert.dir/build.make apps/CMakeFiles/yconvert.dir/yconvert.cpp.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yconvert.dir/build.make apps/CMakeFiles/yconvert.dir/yconvert.cpp.i
 .PHONY : yconvert.cpp.i
 
 yconvert.s: yconvert.cpp.s
@@ -332,7 +332,7 @@ yconvert.s: yconvert.cpp.s
 
 # target to generate assembly for a file
 yconvert.cpp.s:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yconvert.dir/build.make apps/CMakeFiles/yconvert.dir/yconvert.cpp.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yconvert.dir/build.make apps/CMakeFiles/yconvert.dir/yconvert.cpp.s
 .PHONY : yconvert.cpp.s
 
 yconverts.o: yconverts.cpp.o
@@ -340,7 +340,7 @@ yconverts.o: yconverts.cpp.o
 
 # target to build an object file
 yconverts.cpp.o:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yconverts.dir/build.make apps/CMakeFiles/yconverts.dir/yconverts.cpp.o
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yconverts.dir/build.make apps/CMakeFiles/yconverts.dir/yconverts.cpp.o
 .PHONY : yconverts.cpp.o
 
 yconverts.i: yconverts.cpp.i
@@ -348,7 +348,7 @@ yconverts.i: yconverts.cpp.i
 
 # target to preprocess a source file
 yconverts.cpp.i:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yconverts.dir/build.make apps/CMakeFiles/yconverts.dir/yconverts.cpp.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yconverts.dir/build.make apps/CMakeFiles/yconverts.dir/yconverts.cpp.i
 .PHONY : yconverts.cpp.i
 
 yconverts.s: yconverts.cpp.s
@@ -356,7 +356,7 @@ yconverts.s: yconverts.cpp.s
 
 # target to generate assembly for a file
 yconverts.cpp.s:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yconverts.dir/build.make apps/CMakeFiles/yconverts.dir/yconverts.cpp.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yconverts.dir/build.make apps/CMakeFiles/yconverts.dir/yconverts.cpp.s
 .PHONY : yconverts.cpp.s
 
 yimalpha.o: yimalpha.cpp.o
@@ -364,7 +364,7 @@ yimalpha.o: yimalpha.cpp.o
 
 # target to build an object file
 yimalpha.cpp.o:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yimalpha.dir/build.make apps/CMakeFiles/yimalpha.dir/yimalpha.cpp.o
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yimalpha.dir/build.make apps/CMakeFiles/yimalpha.dir/yimalpha.cpp.o
 .PHONY : yimalpha.cpp.o
 
 yimalpha.i: yimalpha.cpp.i
@@ -372,7 +372,7 @@ yimalpha.i: yimalpha.cpp.i
 
 # target to preprocess a source file
 yimalpha.cpp.i:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yimalpha.dir/build.make apps/CMakeFiles/yimalpha.dir/yimalpha.cpp.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yimalpha.dir/build.make apps/CMakeFiles/yimalpha.dir/yimalpha.cpp.i
 .PHONY : yimalpha.cpp.i
 
 yimalpha.s: yimalpha.cpp.s
@@ -380,7 +380,7 @@ yimalpha.s: yimalpha.cpp.s
 
 # target to generate assembly for a file
 yimalpha.cpp.s:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yimalpha.dir/build.make apps/CMakeFiles/yimalpha.dir/yimalpha.cpp.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yimalpha.dir/build.make apps/CMakeFiles/yimalpha.dir/yimalpha.cpp.s
 .PHONY : yimalpha.cpp.s
 
 yimdiff.o: yimdiff.cpp.o
@@ -388,7 +388,7 @@ yimdiff.o: yimdiff.cpp.o
 
 # target to build an object file
 yimdiff.cpp.o:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yimdiff.dir/build.make apps/CMakeFiles/yimdiff.dir/yimdiff.cpp.o
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yimdiff.dir/build.make apps/CMakeFiles/yimdiff.dir/yimdiff.cpp.o
 .PHONY : yimdiff.cpp.o
 
 yimdiff.i: yimdiff.cpp.i
@@ -396,7 +396,7 @@ yimdiff.i: yimdiff.cpp.i
 
 # target to preprocess a source file
 yimdiff.cpp.i:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yimdiff.dir/build.make apps/CMakeFiles/yimdiff.dir/yimdiff.cpp.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yimdiff.dir/build.make apps/CMakeFiles/yimdiff.dir/yimdiff.cpp.i
 .PHONY : yimdiff.cpp.i
 
 yimdiff.s: yimdiff.cpp.s
@@ -404,7 +404,7 @@ yimdiff.s: yimdiff.cpp.s
 
 # target to generate assembly for a file
 yimdiff.cpp.s:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yimdiff.dir/build.make apps/CMakeFiles/yimdiff.dir/yimdiff.cpp.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yimdiff.dir/build.make apps/CMakeFiles/yimdiff.dir/yimdiff.cpp.s
 .PHONY : yimdiff.cpp.s
 
 ysamples.o: ysamples.cpp.o
@@ -412,7 +412,7 @@ ysamples.o: ysamples.cpp.o
 
 # target to build an object file
 ysamples.cpp.o:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ysamples.dir/build.make apps/CMakeFiles/ysamples.dir/ysamples.cpp.o
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ysamples.dir/build.make apps/CMakeFiles/ysamples.dir/ysamples.cpp.o
 .PHONY : ysamples.cpp.o
 
 ysamples.i: ysamples.cpp.i
@@ -420,7 +420,7 @@ ysamples.i: ysamples.cpp.i
 
 # target to preprocess a source file
 ysamples.cpp.i:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ysamples.dir/build.make apps/CMakeFiles/ysamples.dir/ysamples.cpp.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ysamples.dir/build.make apps/CMakeFiles/ysamples.dir/ysamples.cpp.i
 .PHONY : ysamples.cpp.i
 
 ysamples.s: ysamples.cpp.s
@@ -428,7 +428,7 @@ ysamples.s: ysamples.cpp.s
 
 # target to generate assembly for a file
 ysamples.cpp.s:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ysamples.dir/build.make apps/CMakeFiles/ysamples.dir/ysamples.cpp.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ysamples.dir/build.make apps/CMakeFiles/ysamples.dir/ysamples.cpp.s
 .PHONY : ysamples.cpp.s
 
 ytonemap.o: ytonemap.cpp.o
@@ -436,7 +436,7 @@ ytonemap.o: ytonemap.cpp.o
 
 # target to build an object file
 ytonemap.cpp.o:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ytonemap.dir/build.make apps/CMakeFiles/ytonemap.dir/ytonemap.cpp.o
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ytonemap.dir/build.make apps/CMakeFiles/ytonemap.dir/ytonemap.cpp.o
 .PHONY : ytonemap.cpp.o
 
 ytonemap.i: ytonemap.cpp.i
@@ -444,7 +444,7 @@ ytonemap.i: ytonemap.cpp.i
 
 # target to preprocess a source file
 ytonemap.cpp.i:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ytonemap.dir/build.make apps/CMakeFiles/ytonemap.dir/ytonemap.cpp.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ytonemap.dir/build.make apps/CMakeFiles/ytonemap.dir/ytonemap.cpp.i
 .PHONY : ytonemap.cpp.i
 
 ytonemap.s: ytonemap.cpp.s
@@ -452,7 +452,7 @@ ytonemap.s: ytonemap.cpp.s
 
 # target to generate assembly for a file
 ytonemap.cpp.s:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ytonemap.dir/build.make apps/CMakeFiles/ytonemap.dir/ytonemap.cpp.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ytonemap.dir/build.make apps/CMakeFiles/ytonemap.dir/ytonemap.cpp.s
 .PHONY : ytonemap.cpp.s
 
 ytrace.o: ytrace.cpp.o
@@ -460,7 +460,7 @@ ytrace.o: ytrace.cpp.o
 
 # target to build an object file
 ytrace.cpp.o:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ytrace.dir/build.make apps/CMakeFiles/ytrace.dir/ytrace.cpp.o
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ytrace.dir/build.make apps/CMakeFiles/ytrace.dir/ytrace.cpp.o
 .PHONY : ytrace.cpp.o
 
 ytrace.i: ytrace.cpp.i
@@ -468,7 +468,7 @@ ytrace.i: ytrace.cpp.i
 
 # target to preprocess a source file
 ytrace.cpp.i:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ytrace.dir/build.make apps/CMakeFiles/ytrace.dir/ytrace.cpp.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ytrace.dir/build.make apps/CMakeFiles/ytrace.dir/ytrace.cpp.i
 .PHONY : ytrace.cpp.i
 
 ytrace.s: ytrace.cpp.s
@@ -476,7 +476,7 @@ ytrace.s: ytrace.cpp.s
 
 # target to generate assembly for a file
 ytrace.cpp.s:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ytrace.dir/build.make apps/CMakeFiles/ytrace.dir/ytrace.cpp.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ytrace.dir/build.make apps/CMakeFiles/ytrace.dir/ytrace.cpp.s
 .PHONY : ytrace.cpp.s
 
 yview.o: yview.cpp.o
@@ -484,7 +484,7 @@ yview.o: yview.cpp.o
 
 # target to build an object file
 yview.cpp.o:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yview.dir/build.make apps/CMakeFiles/yview.dir/yview.cpp.o
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yview.dir/build.make apps/CMakeFiles/yview.dir/yview.cpp.o
 .PHONY : yview.cpp.o
 
 yview.i: yview.cpp.i
@@ -492,7 +492,7 @@ yview.i: yview.cpp.i
 
 # target to preprocess a source file
 yview.cpp.i:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yview.dir/build.make apps/CMakeFiles/yview.dir/yview.cpp.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yview.dir/build.make apps/CMakeFiles/yview.dir/yview.cpp.i
 .PHONY : yview.cpp.i
 
 yview.s: yview.cpp.s
@@ -500,7 +500,7 @@ yview.s: yview.cpp.s
 
 # target to generate assembly for a file
 yview.cpp.s:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yview.dir/build.make apps/CMakeFiles/yview.dir/yview.cpp.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yview.dir/build.make apps/CMakeFiles/yview.dir/yview.cpp.s
 .PHONY : yview.cpp.s
 
 # Help Target
@@ -562,6 +562,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jorge/Escritorio/code/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

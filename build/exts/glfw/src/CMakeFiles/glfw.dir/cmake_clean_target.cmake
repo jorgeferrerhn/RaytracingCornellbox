@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "/home/jorge/Escritorio/code/bin/libglfw3.a"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/libglfw3.a"
 )

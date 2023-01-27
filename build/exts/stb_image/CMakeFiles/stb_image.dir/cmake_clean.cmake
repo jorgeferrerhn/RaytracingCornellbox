@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jorge/Escritorio/code/bin/libstb_image.a"
-  "/home/jorge/Escritorio/code/bin/libstb_image.pdb"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/libstb_image.a"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/libstb_image.pdb"
   "CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o"
   "CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o.d"
 )

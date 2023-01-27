@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jorge/Escritorio/code/bin/libimgui.a"
-  "/home/jorge/Escritorio/code/bin/libimgui.pdb"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/libimgui.a"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/libimgui.pdb"
   "CMakeFiles/imgui.dir/imgui/backends/imgui_impl_glfw.cpp.o"
   "CMakeFiles/imgui.dir/imgui/backends/imgui_impl_glfw.cpp.o.d"
   "CMakeFiles/imgui.dir/imgui/backends/imgui_impl_opengl3.cpp.o"

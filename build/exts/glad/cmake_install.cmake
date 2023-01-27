@@ -1,4 +1,4 @@
-# Install script for directory: /home/jorge/Escritorio/code/exts/glad
+# Install script for directory: /home/jorge/Escritorio/RaytracingCornellbox/exts/glad
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

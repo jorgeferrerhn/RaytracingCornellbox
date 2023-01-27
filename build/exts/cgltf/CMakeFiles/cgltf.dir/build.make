@@ -53,10 +53,10 @@ RM = /snap/cmake/1216/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jorge/Escritorio/code
+CMAKE_SOURCE_DIR = /home/jorge/Escritorio/RaytracingCornellbox
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jorge/Escritorio/code/build
+CMAKE_BINARY_DIR = /home/jorge/Escritorio/RaytracingCornellbox/build
 
 # Include any dependencies generated for this target.
 include exts/cgltf/CMakeFiles/cgltf.dir/depend.make
@@ -70,32 +70,32 @@ include exts/cgltf/CMakeFiles/cgltf.dir/progress.make
 include exts/cgltf/CMakeFiles/cgltf.dir/flags.make
 
 exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf.c.o: exts/cgltf/CMakeFiles/cgltf.dir/flags.make
-exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf.c.o: /home/jorge/Escritorio/code/exts/cgltf/cgltf/cgltf.c
+exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf.c.o: /home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf/cgltf.c
 exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf.c.o: exts/cgltf/CMakeFiles/cgltf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf.c.o"
-	cd /home/jorge/Escritorio/code/build/exts/cgltf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf.c.o -MF CMakeFiles/cgltf.dir/cgltf/cgltf.c.o.d -o CMakeFiles/cgltf.dir/cgltf/cgltf.c.o -c /home/jorge/Escritorio/code/exts/cgltf/cgltf/cgltf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf.c.o"
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/exts/cgltf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf.c.o -MF CMakeFiles/cgltf.dir/cgltf/cgltf.c.o.d -o CMakeFiles/cgltf.dir/cgltf/cgltf.c.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf/cgltf.c
 
 exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cgltf.dir/cgltf/cgltf.c.i"
-	cd /home/jorge/Escritorio/code/build/exts/cgltf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jorge/Escritorio/code/exts/cgltf/cgltf/cgltf.c > CMakeFiles/cgltf.dir/cgltf/cgltf.c.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/exts/cgltf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf/cgltf.c > CMakeFiles/cgltf.dir/cgltf/cgltf.c.i
 
 exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cgltf.dir/cgltf/cgltf.c.s"
-	cd /home/jorge/Escritorio/code/build/exts/cgltf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jorge/Escritorio/code/exts/cgltf/cgltf/cgltf.c -o CMakeFiles/cgltf.dir/cgltf/cgltf.c.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/exts/cgltf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf/cgltf.c -o CMakeFiles/cgltf.dir/cgltf/cgltf.c.s
 
 exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o: exts/cgltf/CMakeFiles/cgltf.dir/flags.make
-exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o: /home/jorge/Escritorio/code/exts/cgltf/cgltf/cgltf_write.c
+exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o: /home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf/cgltf_write.c
 exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o: exts/cgltf/CMakeFiles/cgltf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o"
-	cd /home/jorge/Escritorio/code/build/exts/cgltf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o -MF CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o.d -o CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o -c /home/jorge/Escritorio/code/exts/cgltf/cgltf/cgltf_write.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o"
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/exts/cgltf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o -MF CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o.d -o CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf/cgltf_write.c
 
 exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.i"
-	cd /home/jorge/Escritorio/code/build/exts/cgltf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jorge/Escritorio/code/exts/cgltf/cgltf/cgltf_write.c > CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/exts/cgltf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf/cgltf_write.c > CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.i
 
 exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.s"
-	cd /home/jorge/Escritorio/code/build/exts/cgltf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jorge/Escritorio/code/exts/cgltf/cgltf/cgltf_write.c -o CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/exts/cgltf && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf/cgltf_write.c -o CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.s
 
 # Object files for target cgltf
 cgltf_OBJECTS = \
@@ -105,23 +105,23 @@ cgltf_OBJECTS = \
 # External object files for target cgltf
 cgltf_EXTERNAL_OBJECTS =
 
-/home/jorge/Escritorio/code/bin/libcgltf.a: exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf.c.o
-/home/jorge/Escritorio/code/bin/libcgltf.a: exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o
-/home/jorge/Escritorio/code/bin/libcgltf.a: exts/cgltf/CMakeFiles/cgltf.dir/build.make
-/home/jorge/Escritorio/code/bin/libcgltf.a: exts/cgltf/CMakeFiles/cgltf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library /home/jorge/Escritorio/code/bin/libcgltf.a"
-	cd /home/jorge/Escritorio/code/build/exts/cgltf && $(CMAKE_COMMAND) -P CMakeFiles/cgltf.dir/cmake_clean_target.cmake
-	cd /home/jorge/Escritorio/code/build/exts/cgltf && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cgltf.dir/link.txt --verbose=$(VERBOSE)
+/home/jorge/Escritorio/RaytracingCornellbox/bin/libcgltf.a: exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf.c.o
+/home/jorge/Escritorio/RaytracingCornellbox/bin/libcgltf.a: exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o
+/home/jorge/Escritorio/RaytracingCornellbox/bin/libcgltf.a: exts/cgltf/CMakeFiles/cgltf.dir/build.make
+/home/jorge/Escritorio/RaytracingCornellbox/bin/libcgltf.a: exts/cgltf/CMakeFiles/cgltf.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library /home/jorge/Escritorio/RaytracingCornellbox/bin/libcgltf.a"
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/exts/cgltf && $(CMAKE_COMMAND) -P CMakeFiles/cgltf.dir/cmake_clean_target.cmake
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/exts/cgltf && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cgltf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-exts/cgltf/CMakeFiles/cgltf.dir/build: /home/jorge/Escritorio/code/bin/libcgltf.a
+exts/cgltf/CMakeFiles/cgltf.dir/build: /home/jorge/Escritorio/RaytracingCornellbox/bin/libcgltf.a
 .PHONY : exts/cgltf/CMakeFiles/cgltf.dir/build
 
 exts/cgltf/CMakeFiles/cgltf.dir/clean:
-	cd /home/jorge/Escritorio/code/build/exts/cgltf && $(CMAKE_COMMAND) -P CMakeFiles/cgltf.dir/cmake_clean.cmake
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/exts/cgltf && $(CMAKE_COMMAND) -P CMakeFiles/cgltf.dir/cmake_clean.cmake
 .PHONY : exts/cgltf/CMakeFiles/cgltf.dir/clean
 
 exts/cgltf/CMakeFiles/cgltf.dir/depend:
-	cd /home/jorge/Escritorio/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jorge/Escritorio/code /home/jorge/Escritorio/code/exts/cgltf /home/jorge/Escritorio/code/build /home/jorge/Escritorio/code/build/exts/cgltf /home/jorge/Escritorio/code/build/exts/cgltf/CMakeFiles/cgltf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jorge/Escritorio/RaytracingCornellbox /home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf /home/jorge/Escritorio/RaytracingCornellbox/build /home/jorge/Escritorio/RaytracingCornellbox/build/exts/cgltf /home/jorge/Escritorio/RaytracingCornellbox/build/exts/cgltf/CMakeFiles/cgltf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : exts/cgltf/CMakeFiles/cgltf.dir/depend
 

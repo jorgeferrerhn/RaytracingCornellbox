@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jorge/Escritorio/code/exts/glad/glad/glad.c" "exts/glad/CMakeFiles/glad.dir/glad/glad.c.o" "gcc" "exts/glad/CMakeFiles/glad.dir/glad/glad.c.o.d"
+  "/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad/glad.c" "exts/glad/CMakeFiles/glad.dir/glad/glad.c.o" "gcc" "exts/glad/CMakeFiles/glad.dir/glad/glad.c.o.d"
   )
 
 # Targets to which this target links.

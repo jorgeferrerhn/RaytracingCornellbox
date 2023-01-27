@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glfw/src -I/home/jorge/Escritorio/code/build/exts/glfw/src
+C_INCLUDES = -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src -I/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src
 
 C_FLAGS = -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99
 

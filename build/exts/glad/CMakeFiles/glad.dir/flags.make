@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad
+C_INCLUDES = -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad
 
 C_FLAGS = -O2 -g -DNDEBUG
 

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jorge/Escritorio/code/exts/tinyexr/. -I/home/jorge/Escritorio/code/exts/tinyexr/tinyexr
+CXX_INCLUDES = -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/tinyexr
 
 CXX_FLAGS = -O2 -g -DNDEBUG -std=gnu++11
 

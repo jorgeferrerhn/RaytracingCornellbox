@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jorge/Escritorio/code/bin/yconvert"
-  "/home/jorge/Escritorio/code/bin/yconvert.pdb"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/yconvert"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/yconvert.pdb"
   "CMakeFiles/yconvert.dir/yconvert.cpp.o"
   "CMakeFiles/yconvert.dir/yconvert.cpp.o.d"
 )

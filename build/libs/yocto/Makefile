@@ -57,10 +57,10 @@ RM = /snap/cmake/1216/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jorge/Escritorio/code
+CMAKE_SOURCE_DIR = /home/jorge/Escritorio/RaytracingCornellbox
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jorge/Escritorio/code/build
+CMAKE_BINARY_DIR = /home/jorge/Escritorio/RaytracingCornellbox/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jorge/Escritorio/code/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles /home/jorge/Escritorio/code/build/libs/yocto//CMakeFiles/progress.marks
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/yocto/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles /home/jorge/Escritorio/RaytracingCornellbox/build/libs/yocto//CMakeFiles/progress.marks
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/yocto/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/yocto/clean
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/yocto/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/yocto/preinstall
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/yocto/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/yocto/preinstall
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/yocto/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jorge/Escritorio/code/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libs/yocto/CMakeFiles/yocto.dir/rule:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/yocto/CMakeFiles/yocto.dir/rule
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/yocto/CMakeFiles/yocto.dir/rule
 .PHONY : libs/yocto/CMakeFiles/yocto.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ yocto: libs/yocto/CMakeFiles/yocto.dir/rule
 
 # fast build rule for target.
 yocto/fast:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/build
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/build
 .PHONY : yocto/fast
 
 yocto_bvh.o: yocto_bvh.cpp.o
@@ -180,7 +180,7 @@ yocto_bvh.o: yocto_bvh.cpp.o
 
 # target to build an object file
 yocto_bvh.cpp.o:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_bvh.cpp.o
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_bvh.cpp.o
 .PHONY : yocto_bvh.cpp.o
 
 yocto_bvh.i: yocto_bvh.cpp.i
@@ -188,7 +188,7 @@ yocto_bvh.i: yocto_bvh.cpp.i
 
 # target to preprocess a source file
 yocto_bvh.cpp.i:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_bvh.cpp.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_bvh.cpp.i
 .PHONY : yocto_bvh.cpp.i
 
 yocto_bvh.s: yocto_bvh.cpp.s
@@ -196,7 +196,7 @@ yocto_bvh.s: yocto_bvh.cpp.s
 
 # target to generate assembly for a file
 yocto_bvh.cpp.s:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_bvh.cpp.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_bvh.cpp.s
 .PHONY : yocto_bvh.cpp.s
 
 yocto_cutrace.o: yocto_cutrace.cpp.o
@@ -204,7 +204,7 @@ yocto_cutrace.o: yocto_cutrace.cpp.o
 
 # target to build an object file
 yocto_cutrace.cpp.o:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_cutrace.cpp.o
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_cutrace.cpp.o
 .PHONY : yocto_cutrace.cpp.o
 
 yocto_cutrace.i: yocto_cutrace.cpp.i
@@ -212,7 +212,7 @@ yocto_cutrace.i: yocto_cutrace.cpp.i
 
 # target to preprocess a source file
 yocto_cutrace.cpp.i:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_cutrace.cpp.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_cutrace.cpp.i
 .PHONY : yocto_cutrace.cpp.i
 
 yocto_cutrace.s: yocto_cutrace.cpp.s
@@ -220,7 +220,7 @@ yocto_cutrace.s: yocto_cutrace.cpp.s
 
 # target to generate assembly for a file
 yocto_cutrace.cpp.s:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_cutrace.cpp.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_cutrace.cpp.s
 .PHONY : yocto_cutrace.cpp.s
 
 yocto_gui.o: yocto_gui.cpp.o
@@ -228,7 +228,7 @@ yocto_gui.o: yocto_gui.cpp.o
 
 # target to build an object file
 yocto_gui.cpp.o:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_gui.cpp.o
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_gui.cpp.o
 .PHONY : yocto_gui.cpp.o
 
 yocto_gui.i: yocto_gui.cpp.i
@@ -236,7 +236,7 @@ yocto_gui.i: yocto_gui.cpp.i
 
 # target to preprocess a source file
 yocto_gui.cpp.i:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_gui.cpp.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_gui.cpp.i
 .PHONY : yocto_gui.cpp.i
 
 yocto_gui.s: yocto_gui.cpp.s
@@ -244,7 +244,7 @@ yocto_gui.s: yocto_gui.cpp.s
 
 # target to generate assembly for a file
 yocto_gui.cpp.s:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_gui.cpp.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_gui.cpp.s
 .PHONY : yocto_gui.cpp.s
 
 yocto_image.o: yocto_image.cpp.o
@@ -252,7 +252,7 @@ yocto_image.o: yocto_image.cpp.o
 
 # target to build an object file
 yocto_image.cpp.o:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_image.cpp.o
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_image.cpp.o
 .PHONY : yocto_image.cpp.o
 
 yocto_image.i: yocto_image.cpp.i
@@ -260,7 +260,7 @@ yocto_image.i: yocto_image.cpp.i
 
 # target to preprocess a source file
 yocto_image.cpp.i:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_image.cpp.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_image.cpp.i
 .PHONY : yocto_image.cpp.i
 
 yocto_image.s: yocto_image.cpp.s
@@ -268,7 +268,7 @@ yocto_image.s: yocto_image.cpp.s
 
 # target to generate assembly for a file
 yocto_image.cpp.s:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_image.cpp.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_image.cpp.s
 .PHONY : yocto_image.cpp.s
 
 yocto_modelio.o: yocto_modelio.cpp.o
@@ -276,7 +276,7 @@ yocto_modelio.o: yocto_modelio.cpp.o
 
 # target to build an object file
 yocto_modelio.cpp.o:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_modelio.cpp.o
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_modelio.cpp.o
 .PHONY : yocto_modelio.cpp.o
 
 yocto_modelio.i: yocto_modelio.cpp.i
@@ -284,7 +284,7 @@ yocto_modelio.i: yocto_modelio.cpp.i
 
 # target to preprocess a source file
 yocto_modelio.cpp.i:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_modelio.cpp.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_modelio.cpp.i
 .PHONY : yocto_modelio.cpp.i
 
 yocto_modelio.s: yocto_modelio.cpp.s
@@ -292,7 +292,7 @@ yocto_modelio.s: yocto_modelio.cpp.s
 
 # target to generate assembly for a file
 yocto_modelio.cpp.s:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_modelio.cpp.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_modelio.cpp.s
 .PHONY : yocto_modelio.cpp.s
 
 yocto_pbrtio.o: yocto_pbrtio.cpp.o
@@ -300,7 +300,7 @@ yocto_pbrtio.o: yocto_pbrtio.cpp.o
 
 # target to build an object file
 yocto_pbrtio.cpp.o:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_pbrtio.cpp.o
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_pbrtio.cpp.o
 .PHONY : yocto_pbrtio.cpp.o
 
 yocto_pbrtio.i: yocto_pbrtio.cpp.i
@@ -308,7 +308,7 @@ yocto_pbrtio.i: yocto_pbrtio.cpp.i
 
 # target to preprocess a source file
 yocto_pbrtio.cpp.i:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_pbrtio.cpp.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_pbrtio.cpp.i
 .PHONY : yocto_pbrtio.cpp.i
 
 yocto_pbrtio.s: yocto_pbrtio.cpp.s
@@ -316,7 +316,7 @@ yocto_pbrtio.s: yocto_pbrtio.cpp.s
 
 # target to generate assembly for a file
 yocto_pbrtio.cpp.s:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_pbrtio.cpp.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_pbrtio.cpp.s
 .PHONY : yocto_pbrtio.cpp.s
 
 yocto_scene.o: yocto_scene.cpp.o
@@ -324,7 +324,7 @@ yocto_scene.o: yocto_scene.cpp.o
 
 # target to build an object file
 yocto_scene.cpp.o:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_scene.cpp.o
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_scene.cpp.o
 .PHONY : yocto_scene.cpp.o
 
 yocto_scene.i: yocto_scene.cpp.i
@@ -332,7 +332,7 @@ yocto_scene.i: yocto_scene.cpp.i
 
 # target to preprocess a source file
 yocto_scene.cpp.i:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_scene.cpp.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_scene.cpp.i
 .PHONY : yocto_scene.cpp.i
 
 yocto_scene.s: yocto_scene.cpp.s
@@ -340,7 +340,7 @@ yocto_scene.s: yocto_scene.cpp.s
 
 # target to generate assembly for a file
 yocto_scene.cpp.s:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_scene.cpp.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_scene.cpp.s
 .PHONY : yocto_scene.cpp.s
 
 yocto_sceneio.o: yocto_sceneio.cpp.o
@@ -348,7 +348,7 @@ yocto_sceneio.o: yocto_sceneio.cpp.o
 
 # target to build an object file
 yocto_sceneio.cpp.o:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_sceneio.cpp.o
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_sceneio.cpp.o
 .PHONY : yocto_sceneio.cpp.o
 
 yocto_sceneio.i: yocto_sceneio.cpp.i
@@ -356,7 +356,7 @@ yocto_sceneio.i: yocto_sceneio.cpp.i
 
 # target to preprocess a source file
 yocto_sceneio.cpp.i:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_sceneio.cpp.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_sceneio.cpp.i
 .PHONY : yocto_sceneio.cpp.i
 
 yocto_sceneio.s: yocto_sceneio.cpp.s
@@ -364,7 +364,7 @@ yocto_sceneio.s: yocto_sceneio.cpp.s
 
 # target to generate assembly for a file
 yocto_sceneio.cpp.s:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_sceneio.cpp.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_sceneio.cpp.s
 .PHONY : yocto_sceneio.cpp.s
 
 yocto_shape.o: yocto_shape.cpp.o
@@ -372,7 +372,7 @@ yocto_shape.o: yocto_shape.cpp.o
 
 # target to build an object file
 yocto_shape.cpp.o:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_shape.cpp.o
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_shape.cpp.o
 .PHONY : yocto_shape.cpp.o
 
 yocto_shape.i: yocto_shape.cpp.i
@@ -380,7 +380,7 @@ yocto_shape.i: yocto_shape.cpp.i
 
 # target to preprocess a source file
 yocto_shape.cpp.i:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_shape.cpp.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_shape.cpp.i
 .PHONY : yocto_shape.cpp.i
 
 yocto_shape.s: yocto_shape.cpp.s
@@ -388,7 +388,7 @@ yocto_shape.s: yocto_shape.cpp.s
 
 # target to generate assembly for a file
 yocto_shape.cpp.s:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_shape.cpp.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_shape.cpp.s
 .PHONY : yocto_shape.cpp.s
 
 yocto_trace.o: yocto_trace.cpp.o
@@ -396,7 +396,7 @@ yocto_trace.o: yocto_trace.cpp.o
 
 # target to build an object file
 yocto_trace.cpp.o:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_trace.cpp.o
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_trace.cpp.o
 .PHONY : yocto_trace.cpp.o
 
 yocto_trace.i: yocto_trace.cpp.i
@@ -404,7 +404,7 @@ yocto_trace.i: yocto_trace.cpp.i
 
 # target to preprocess a source file
 yocto_trace.cpp.i:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_trace.cpp.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_trace.cpp.i
 .PHONY : yocto_trace.cpp.i
 
 yocto_trace.s: yocto_trace.cpp.s
@@ -412,7 +412,7 @@ yocto_trace.s: yocto_trace.cpp.s
 
 # target to generate assembly for a file
 yocto_trace.cpp.s:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_trace.cpp.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/yocto_trace.cpp.s
 .PHONY : yocto_trace.cpp.s
 
 # Help Target
@@ -469,6 +469,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jorge/Escritorio/code/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

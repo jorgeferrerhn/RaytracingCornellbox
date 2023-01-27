@@ -1,4 +1,4 @@
-# Install script for directory: /home/jorge/Escritorio/code/exts/glfw
+# Install script for directory: /home/jorge/Escritorio/RaytracingCornellbox/exts/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,6 +44,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/jorge/Escritorio/code/cmake-build-debug/exts/glfw/src/cmake_install.cmake")
+  include("/home/jorge/Escritorio/RaytracingCornellbox/cmake-build-debug/exts/glfw/src/cmake_install.cmake")
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/jorge/Escritorio/code/exts
+# Install script for directory: /home/jorge/Escritorio/RaytracingCornellbox/exts
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,41 +44,41 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/jorge/Escritorio/code/build/exts/fast_float/cmake_install.cmake")
+  include("/home/jorge/Escritorio/RaytracingCornellbox/build/exts/fast_float/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/jorge/Escritorio/code/build/exts/nlohmann_json/cmake_install.cmake")
+  include("/home/jorge/Escritorio/RaytracingCornellbox/build/exts/nlohmann_json/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/jorge/Escritorio/code/build/exts/stb_image/cmake_install.cmake")
+  include("/home/jorge/Escritorio/RaytracingCornellbox/build/exts/stb_image/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/jorge/Escritorio/code/build/exts/tinyexr/cmake_install.cmake")
+  include("/home/jorge/Escritorio/RaytracingCornellbox/build/exts/tinyexr/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/jorge/Escritorio/code/build/exts/cgltf/cmake_install.cmake")
+  include("/home/jorge/Escritorio/RaytracingCornellbox/build/exts/cgltf/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/jorge/Escritorio/code/build/exts/glfw/cmake_install.cmake")
+  include("/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/jorge/Escritorio/code/build/exts/glad/cmake_install.cmake")
+  include("/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glad/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/jorge/Escritorio/code/build/exts/imgui/cmake_install.cmake")
+  include("/home/jorge/Escritorio/RaytracingCornellbox/build/exts/imgui/cmake_install.cmake")
 endif()
 

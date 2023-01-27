@@ -53,10 +53,10 @@ RM = /snap/cmake/1216/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jorge/Escritorio/code
+CMAKE_SOURCE_DIR = /home/jorge/Escritorio/RaytracingCornellbox
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jorge/Escritorio/code/build
+CMAKE_BINARY_DIR = /home/jorge/Escritorio/RaytracingCornellbox/build
 
 # Utility rule file for update_mappings.
 
@@ -67,8 +67,8 @@ include exts/glfw/src/CMakeFiles/update_mappings.dir/compiler_depend.make
 include exts/glfw/src/CMakeFiles/update_mappings.dir/progress.make
 
 exts/glfw/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /home/jorge/Escritorio/code/exts/glfw/src && /snap/cmake/1216/bin/cmake -P /home/jorge/Escritorio/code/exts/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd /home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src && /snap/cmake/1216/bin/cmake -P /home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 update_mappings: exts/glfw/src/CMakeFiles/update_mappings
 update_mappings: exts/glfw/src/CMakeFiles/update_mappings.dir/build.make
@@ -79,10 +79,10 @@ exts/glfw/src/CMakeFiles/update_mappings.dir/build: update_mappings
 .PHONY : exts/glfw/src/CMakeFiles/update_mappings.dir/build
 
 exts/glfw/src/CMakeFiles/update_mappings.dir/clean:
-	cd /home/jorge/Escritorio/code/build/exts/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
 .PHONY : exts/glfw/src/CMakeFiles/update_mappings.dir/clean
 
 exts/glfw/src/CMakeFiles/update_mappings.dir/depend:
-	cd /home/jorge/Escritorio/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jorge/Escritorio/code /home/jorge/Escritorio/code/exts/glfw/src /home/jorge/Escritorio/code/build /home/jorge/Escritorio/code/build/exts/glfw/src /home/jorge/Escritorio/code/build/exts/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jorge/Escritorio/RaytracingCornellbox /home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src /home/jorge/Escritorio/RaytracingCornellbox/build /home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src /home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : exts/glfw/src/CMakeFiles/update_mappings.dir/depend
 

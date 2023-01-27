@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jorge/Escritorio/code/exts/tinyexr/tinyexr/tinyexr.cpp" "exts/tinyexr/CMakeFiles/tinyexr.dir/tinyexr/tinyexr.cpp.o" "gcc" "exts/tinyexr/CMakeFiles/tinyexr.dir/tinyexr/tinyexr.cpp.o.d"
+  "/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/tinyexr/tinyexr.cpp" "exts/tinyexr/CMakeFiles/tinyexr.dir/tinyexr/tinyexr.cpp.o" "gcc" "exts/tinyexr/CMakeFiles/tinyexr.dir/tinyexr/tinyexr.cpp.o.d"
   )
 
 # Targets to which this target links.

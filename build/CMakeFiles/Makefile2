@@ -54,10 +54,10 @@ RM = /snap/cmake/1216/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jorge/Escritorio/code
+CMAKE_SOURCE_DIR = /home/jorge/Escritorio/RaytracingCornellbox
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jorge/Escritorio/code/build
+CMAKE_BINARY_DIR = /home/jorge/Escritorio/RaytracingCornellbox/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -358,14 +358,14 @@ libs/yocto_examples/clean: libs/yocto_examples/CMakeFiles/yocto_examples.dir/cle
 exts/stb_image/CMakeFiles/stb_image.dir/all:
 	$(MAKE) $(MAKESILENT) -f exts/stb_image/CMakeFiles/stb_image.dir/build.make exts/stb_image/CMakeFiles/stb_image.dir/depend
 	$(MAKE) $(MAKESILENT) -f exts/stb_image/CMakeFiles/stb_image.dir/build.make exts/stb_image/CMakeFiles/stb_image.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=31,32 "Built target stb_image"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=31,32 "Built target stb_image"
 .PHONY : exts/stb_image/CMakeFiles/stb_image.dir/all
 
 # Build rule for subdir invocation for target.
 exts/stb_image/CMakeFiles/stb_image.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exts/stb_image/CMakeFiles/stb_image.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : exts/stb_image/CMakeFiles/stb_image.dir/rule
 
 # Convenience name for target.
@@ -384,14 +384,14 @@ exts/stb_image/CMakeFiles/stb_image.dir/clean:
 exts/tinyexr/CMakeFiles/tinyexr.dir/all:
 	$(MAKE) $(MAKESILENT) -f exts/tinyexr/CMakeFiles/tinyexr.dir/build.make exts/tinyexr/CMakeFiles/tinyexr.dir/depend
 	$(MAKE) $(MAKESILENT) -f exts/tinyexr/CMakeFiles/tinyexr.dir/build.make exts/tinyexr/CMakeFiles/tinyexr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=33,34 "Built target tinyexr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=33,34 "Built target tinyexr"
 .PHONY : exts/tinyexr/CMakeFiles/tinyexr.dir/all
 
 # Build rule for subdir invocation for target.
 exts/tinyexr/CMakeFiles/tinyexr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exts/tinyexr/CMakeFiles/tinyexr.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : exts/tinyexr/CMakeFiles/tinyexr.dir/rule
 
 # Convenience name for target.
@@ -410,14 +410,14 @@ exts/tinyexr/CMakeFiles/tinyexr.dir/clean:
 exts/cgltf/CMakeFiles/cgltf.dir/all:
 	$(MAKE) $(MAKESILENT) -f exts/cgltf/CMakeFiles/cgltf.dir/build.make exts/cgltf/CMakeFiles/cgltf.dir/depend
 	$(MAKE) $(MAKESILENT) -f exts/cgltf/CMakeFiles/cgltf.dir/build.make exts/cgltf/CMakeFiles/cgltf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=1,2,3 "Built target cgltf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=1,2,3 "Built target cgltf"
 .PHONY : exts/cgltf/CMakeFiles/cgltf.dir/all
 
 # Build rule for subdir invocation for target.
 exts/cgltf/CMakeFiles/cgltf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exts/cgltf/CMakeFiles/cgltf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : exts/cgltf/CMakeFiles/cgltf.dir/rule
 
 # Convenience name for target.
@@ -436,14 +436,14 @@ exts/cgltf/CMakeFiles/cgltf.dir/clean:
 exts/glfw/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f exts/glfw/src/CMakeFiles/update_mappings.dir/build.make exts/glfw/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f exts/glfw/src/CMakeFiles/update_mappings.dir/build.make exts/glfw/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=35 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=35 "Built target update_mappings"
 .PHONY : exts/glfw/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
 exts/glfw/src/CMakeFiles/update_mappings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exts/glfw/src/CMakeFiles/update_mappings.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : exts/glfw/src/CMakeFiles/update_mappings.dir/rule
 
 # Convenience name for target.
@@ -462,14 +462,14 @@ exts/glfw/src/CMakeFiles/update_mappings.dir/clean:
 exts/glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f exts/glfw/src/CMakeFiles/glfw.dir/build.make exts/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f exts/glfw/src/CMakeFiles/glfw.dir/build.make exts/glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target glfw"
 .PHONY : exts/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 exts/glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exts/glfw/src/CMakeFiles/glfw.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : exts/glfw/src/CMakeFiles/glfw.dir/rule
 
 # Convenience name for target.
@@ -488,14 +488,14 @@ exts/glfw/src/CMakeFiles/glfw.dir/clean:
 exts/glad/CMakeFiles/glad.dir/all:
 	$(MAKE) $(MAKESILENT) -f exts/glad/CMakeFiles/glad.dir/build.make exts/glad/CMakeFiles/glad.dir/depend
 	$(MAKE) $(MAKESILENT) -f exts/glad/CMakeFiles/glad.dir/build.make exts/glad/CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=4,5 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=4,5 "Built target glad"
 .PHONY : exts/glad/CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
 exts/glad/CMakeFiles/glad.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exts/glad/CMakeFiles/glad.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : exts/glad/CMakeFiles/glad.dir/rule
 
 # Convenience name for target.
@@ -515,14 +515,14 @@ exts/imgui/CMakeFiles/imgui.dir/all: exts/glfw/src/CMakeFiles/glfw.dir/all
 exts/imgui/CMakeFiles/imgui.dir/all: exts/glad/CMakeFiles/glad.dir/all
 	$(MAKE) $(MAKESILENT) -f exts/imgui/CMakeFiles/imgui.dir/build.make exts/imgui/CMakeFiles/imgui.dir/depend
 	$(MAKE) $(MAKESILENT) -f exts/imgui/CMakeFiles/imgui.dir/build.make exts/imgui/CMakeFiles/imgui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=23,24,25,26,27,28,29,30 "Built target imgui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=23,24,25,26,27,28,29,30 "Built target imgui"
 .PHONY : exts/imgui/CMakeFiles/imgui.dir/all
 
 # Build rule for subdir invocation for target.
 exts/imgui/CMakeFiles/imgui.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 27
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exts/imgui/CMakeFiles/imgui.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : exts/imgui/CMakeFiles/imgui.dir/rule
 
 # Convenience name for target.
@@ -546,14 +546,14 @@ libs/yocto/CMakeFiles/yocto.dir/all: exts/glad/CMakeFiles/glad.dir/all
 libs/yocto/CMakeFiles/yocto.dir/all: exts/imgui/CMakeFiles/imgui.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/yocto/CMakeFiles/yocto.dir/build.make libs/yocto/CMakeFiles/yocto.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=48,49,50,51,52,53,54,55,56,57,58 "Built target yocto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=48,49,50,51,52,53,54,55,56,57,58 "Built target yocto"
 .PHONY : libs/yocto/CMakeFiles/yocto.dir/all
 
 # Build rule for subdir invocation for target.
 libs/yocto/CMakeFiles/yocto.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 45
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 45
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/yocto/CMakeFiles/yocto.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : libs/yocto/CMakeFiles/yocto.dir/rule
 
 # Convenience name for target.
@@ -578,14 +578,14 @@ libs/yocto_examples/CMakeFiles/yocto_examples.dir/all: exts/imgui/CMakeFiles/img
 libs/yocto_examples/CMakeFiles/yocto_examples.dir/all: libs/yocto/CMakeFiles/yocto.dir/all
 	$(MAKE) $(MAKESILENT) -f libs/yocto_examples/CMakeFiles/yocto_examples.dir/build.make libs/yocto_examples/CMakeFiles/yocto_examples.dir/depend
 	$(MAKE) $(MAKESILENT) -f libs/yocto_examples/CMakeFiles/yocto_examples.dir/build.make libs/yocto_examples/CMakeFiles/yocto_examples.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=59,60,61 "Built target yocto_examples"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=59,60,61 "Built target yocto_examples"
 .PHONY : libs/yocto_examples/CMakeFiles/yocto_examples.dir/all
 
 # Build rule for subdir invocation for target.
 libs/yocto_examples/CMakeFiles/yocto_examples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 48
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 48
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/yocto_examples/CMakeFiles/yocto_examples.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : libs/yocto_examples/CMakeFiles/yocto_examples.dir/rule
 
 # Convenience name for target.
@@ -610,14 +610,14 @@ apps/CMakeFiles/ytonemap.dir/all: exts/imgui/CMakeFiles/imgui.dir/all
 apps/CMakeFiles/ytonemap.dir/all: libs/yocto/CMakeFiles/yocto.dir/all
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ytonemap.dir/build.make apps/CMakeFiles/ytonemap.dir/depend
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ytonemap.dir/build.make apps/CMakeFiles/ytonemap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=66,67 "Built target ytonemap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=66,67 "Built target ytonemap"
 .PHONY : apps/CMakeFiles/ytonemap.dir/all
 
 # Build rule for subdir invocation for target.
 apps/CMakeFiles/ytonemap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 47
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/ytonemap.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : apps/CMakeFiles/ytonemap.dir/rule
 
 # Convenience name for target.
@@ -642,14 +642,14 @@ apps/CMakeFiles/ycolorgrade.dir/all: exts/imgui/CMakeFiles/imgui.dir/all
 apps/CMakeFiles/ycolorgrade.dir/all: libs/yocto/CMakeFiles/yocto.dir/all
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ycolorgrade.dir/build.make apps/CMakeFiles/ycolorgrade.dir/depend
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ycolorgrade.dir/build.make apps/CMakeFiles/ycolorgrade.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=36,37 "Built target ycolorgrade"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=36,37 "Built target ycolorgrade"
 .PHONY : apps/CMakeFiles/ycolorgrade.dir/all
 
 # Build rule for subdir invocation for target.
 apps/CMakeFiles/ycolorgrade.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 47
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/ycolorgrade.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : apps/CMakeFiles/ycolorgrade.dir/rule
 
 # Convenience name for target.
@@ -674,14 +674,14 @@ apps/CMakeFiles/ytrace.dir/all: exts/imgui/CMakeFiles/imgui.dir/all
 apps/CMakeFiles/ytrace.dir/all: libs/yocto/CMakeFiles/yocto.dir/all
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ytrace.dir/build.make apps/CMakeFiles/ytrace.dir/depend
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ytrace.dir/build.make apps/CMakeFiles/ytrace.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=68,69 "Built target ytrace"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=68,69 "Built target ytrace"
 .PHONY : apps/CMakeFiles/ytrace.dir/all
 
 # Build rule for subdir invocation for target.
 apps/CMakeFiles/ytrace.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 47
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/ytrace.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : apps/CMakeFiles/ytrace.dir/rule
 
 # Convenience name for target.
@@ -706,14 +706,14 @@ apps/CMakeFiles/yview.dir/all: exts/imgui/CMakeFiles/imgui.dir/all
 apps/CMakeFiles/yview.dir/all: libs/yocto/CMakeFiles/yocto.dir/all
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yview.dir/build.make apps/CMakeFiles/yview.dir/depend
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yview.dir/build.make apps/CMakeFiles/yview.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=70,71 "Built target yview"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=70,71 "Built target yview"
 .PHONY : apps/CMakeFiles/yview.dir/all
 
 # Build rule for subdir invocation for target.
 apps/CMakeFiles/yview.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 47
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/yview.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : apps/CMakeFiles/yview.dir/rule
 
 # Convenience name for target.
@@ -738,14 +738,14 @@ apps/CMakeFiles/yimdiff.dir/all: exts/imgui/CMakeFiles/imgui.dir/all
 apps/CMakeFiles/yimdiff.dir/all: libs/yocto/CMakeFiles/yocto.dir/all
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yimdiff.dir/build.make apps/CMakeFiles/yimdiff.dir/depend
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yimdiff.dir/build.make apps/CMakeFiles/yimdiff.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=46,47 "Built target yimdiff"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=46,47 "Built target yimdiff"
 .PHONY : apps/CMakeFiles/yimdiff.dir/all
 
 # Build rule for subdir invocation for target.
 apps/CMakeFiles/yimdiff.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 47
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/yimdiff.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : apps/CMakeFiles/yimdiff.dir/rule
 
 # Convenience name for target.
@@ -770,14 +770,14 @@ apps/CMakeFiles/yimalpha.dir/all: exts/imgui/CMakeFiles/imgui.dir/all
 apps/CMakeFiles/yimalpha.dir/all: libs/yocto/CMakeFiles/yocto.dir/all
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yimalpha.dir/build.make apps/CMakeFiles/yimalpha.dir/depend
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yimalpha.dir/build.make apps/CMakeFiles/yimalpha.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=44,45 "Built target yimalpha"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=44,45 "Built target yimalpha"
 .PHONY : apps/CMakeFiles/yimalpha.dir/all
 
 # Build rule for subdir invocation for target.
 apps/CMakeFiles/yimalpha.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 47
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/yimalpha.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : apps/CMakeFiles/yimalpha.dir/rule
 
 # Convenience name for target.
@@ -802,14 +802,14 @@ apps/CMakeFiles/yconvert.dir/all: exts/imgui/CMakeFiles/imgui.dir/all
 apps/CMakeFiles/yconvert.dir/all: libs/yocto/CMakeFiles/yocto.dir/all
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yconvert.dir/build.make apps/CMakeFiles/yconvert.dir/depend
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yconvert.dir/build.make apps/CMakeFiles/yconvert.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=38,39 "Built target yconvert"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=38,39 "Built target yconvert"
 .PHONY : apps/CMakeFiles/yconvert.dir/all
 
 # Build rule for subdir invocation for target.
 apps/CMakeFiles/yconvert.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 47
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/yconvert.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : apps/CMakeFiles/yconvert.dir/rule
 
 # Convenience name for target.
@@ -834,14 +834,14 @@ apps/CMakeFiles/yconverts.dir/all: exts/imgui/CMakeFiles/imgui.dir/all
 apps/CMakeFiles/yconverts.dir/all: libs/yocto/CMakeFiles/yocto.dir/all
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yconverts.dir/build.make apps/CMakeFiles/yconverts.dir/depend
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/yconverts.dir/build.make apps/CMakeFiles/yconverts.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=40,41 "Built target yconverts"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=40,41 "Built target yconverts"
 .PHONY : apps/CMakeFiles/yconverts.dir/all
 
 # Build rule for subdir invocation for target.
 apps/CMakeFiles/yconverts.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 47
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/yconverts.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : apps/CMakeFiles/yconverts.dir/rule
 
 # Convenience name for target.
@@ -866,14 +866,14 @@ apps/CMakeFiles/ysamples.dir/all: exts/imgui/CMakeFiles/imgui.dir/all
 apps/CMakeFiles/ysamples.dir/all: libs/yocto/CMakeFiles/yocto.dir/all
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ysamples.dir/build.make apps/CMakeFiles/ysamples.dir/depend
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/ysamples.dir/build.make apps/CMakeFiles/ysamples.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=64,65 "Built target ysamples"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=64,65 "Built target ysamples"
 .PHONY : apps/CMakeFiles/ysamples.dir/all
 
 # Build rule for subdir invocation for target.
 apps/CMakeFiles/ysamples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 47
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/ysamples.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : apps/CMakeFiles/ysamples.dir/rule
 
 # Convenience name for target.
@@ -899,14 +899,14 @@ examples/CMakeFiles/ygrade.dir/all: libs/yocto/CMakeFiles/yocto.dir/all
 examples/CMakeFiles/ygrade.dir/all: libs/yocto_examples/CMakeFiles/yocto_examples.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/ygrade.dir/build.make examples/CMakeFiles/ygrade.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/ygrade.dir/build.make examples/CMakeFiles/ygrade.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=42,43 "Built target ygrade"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=42,43 "Built target ygrade"
 .PHONY : examples/CMakeFiles/ygrade.dir/all
 
 # Build rule for subdir invocation for target.
 examples/CMakeFiles/ygrade.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 50
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/ygrade.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : examples/CMakeFiles/ygrade.dir/rule
 
 # Convenience name for target.
@@ -932,14 +932,14 @@ examples/CMakeFiles/yraytrace.dir/all: libs/yocto/CMakeFiles/yocto.dir/all
 examples/CMakeFiles/yraytrace.dir/all: libs/yocto_examples/CMakeFiles/yocto_examples.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/yraytrace.dir/build.make examples/CMakeFiles/yraytrace.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/yraytrace.dir/build.make examples/CMakeFiles/yraytrace.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=62,63 "Built target yraytrace"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=62,63 "Built target yraytrace"
 .PHONY : examples/CMakeFiles/yraytrace.dir/all
 
 # Build rule for subdir invocation for target.
 examples/CMakeFiles/yraytrace.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 50
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/yraytrace.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : examples/CMakeFiles/yraytrace.dir/rule
 
 # Convenience name for target.

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jorge/Escritorio/code/bin/libtinyexr.a"
-  "/home/jorge/Escritorio/code/bin/libtinyexr.pdb"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/libtinyexr.a"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/libtinyexr.pdb"
   "CMakeFiles/tinyexr.dir/tinyexr/tinyexr.cpp.o"
   "CMakeFiles/tinyexr.dir/tinyexr/tinyexr.cpp.o.d"
 )

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jorge/Escritorio/code/bin/libcgltf.a"
-  "/home/jorge/Escritorio/code/bin/libcgltf.pdb"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/libcgltf.a"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/libcgltf.pdb"
   "CMakeFiles/cgltf.dir/cgltf/cgltf.c.o"
   "CMakeFiles/cgltf.dir/cgltf/cgltf.c.o.d"
   "CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o"

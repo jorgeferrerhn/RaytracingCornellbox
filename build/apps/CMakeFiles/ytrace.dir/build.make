@@ -53,10 +53,10 @@ RM = /snap/cmake/1216/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jorge/Escritorio/code
+CMAKE_SOURCE_DIR = /home/jorge/Escritorio/RaytracingCornellbox
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jorge/Escritorio/code/build
+CMAKE_BINARY_DIR = /home/jorge/Escritorio/RaytracingCornellbox/build
 
 # Include any dependencies generated for this target.
 include apps/CMakeFiles/ytrace.dir/depend.make
@@ -70,18 +70,18 @@ include apps/CMakeFiles/ytrace.dir/progress.make
 include apps/CMakeFiles/ytrace.dir/flags.make
 
 apps/CMakeFiles/ytrace.dir/ytrace.cpp.o: apps/CMakeFiles/ytrace.dir/flags.make
-apps/CMakeFiles/ytrace.dir/ytrace.cpp.o: /home/jorge/Escritorio/code/apps/ytrace.cpp
+apps/CMakeFiles/ytrace.dir/ytrace.cpp.o: /home/jorge/Escritorio/RaytracingCornellbox/apps/ytrace.cpp
 apps/CMakeFiles/ytrace.dir/ytrace.cpp.o: apps/CMakeFiles/ytrace.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/CMakeFiles/ytrace.dir/ytrace.cpp.o"
-	cd /home/jorge/Escritorio/code/build/apps && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT apps/CMakeFiles/ytrace.dir/ytrace.cpp.o -MF CMakeFiles/ytrace.dir/ytrace.cpp.o.d -o CMakeFiles/ytrace.dir/ytrace.cpp.o -c /home/jorge/Escritorio/code/apps/ytrace.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/CMakeFiles/ytrace.dir/ytrace.cpp.o"
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/apps && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT apps/CMakeFiles/ytrace.dir/ytrace.cpp.o -MF CMakeFiles/ytrace.dir/ytrace.cpp.o.d -o CMakeFiles/ytrace.dir/ytrace.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/apps/ytrace.cpp
 
 apps/CMakeFiles/ytrace.dir/ytrace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ytrace.dir/ytrace.cpp.i"
-	cd /home/jorge/Escritorio/code/build/apps && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jorge/Escritorio/code/apps/ytrace.cpp > CMakeFiles/ytrace.dir/ytrace.cpp.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/apps && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jorge/Escritorio/RaytracingCornellbox/apps/ytrace.cpp > CMakeFiles/ytrace.dir/ytrace.cpp.i
 
 apps/CMakeFiles/ytrace.dir/ytrace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ytrace.dir/ytrace.cpp.s"
-	cd /home/jorge/Escritorio/code/build/apps && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jorge/Escritorio/code/apps/ytrace.cpp -o CMakeFiles/ytrace.dir/ytrace.cpp.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/apps && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jorge/Escritorio/RaytracingCornellbox/apps/ytrace.cpp -o CMakeFiles/ytrace.dir/ytrace.cpp.s
 
 # Object files for target ytrace
 ytrace_OBJECTS = \
@@ -90,32 +90,32 @@ ytrace_OBJECTS = \
 # External object files for target ytrace
 ytrace_EXTERNAL_OBJECTS =
 
-/home/jorge/Escritorio/code/bin/ytrace: apps/CMakeFiles/ytrace.dir/ytrace.cpp.o
-/home/jorge/Escritorio/code/bin/ytrace: apps/CMakeFiles/ytrace.dir/build.make
-/home/jorge/Escritorio/code/bin/ytrace: /home/jorge/Escritorio/code/bin/libyocto.a
-/home/jorge/Escritorio/code/bin/ytrace: /home/jorge/Escritorio/code/bin/libstb_image.a
-/home/jorge/Escritorio/code/bin/ytrace: /home/jorge/Escritorio/code/bin/libtinyexr.a
-/home/jorge/Escritorio/code/bin/ytrace: /home/jorge/Escritorio/code/bin/libcgltf.a
-/home/jorge/Escritorio/code/bin/ytrace: /home/jorge/Escritorio/code/bin/libimgui.a
-/home/jorge/Escritorio/code/bin/ytrace: /home/jorge/Escritorio/code/bin/libglad.a
-/home/jorge/Escritorio/code/bin/ytrace: /home/jorge/Escritorio/code/bin/libglfw3.a
-/home/jorge/Escritorio/code/bin/ytrace: /usr/lib/x86_64-linux-gnu/librt.a
-/home/jorge/Escritorio/code/bin/ytrace: /usr/lib/x86_64-linux-gnu/libm.so
-/home/jorge/Escritorio/code/bin/ytrace: /usr/lib/x86_64-linux-gnu/libX11.so
-/home/jorge/Escritorio/code/bin/ytrace: /usr/lib/x86_64-linux-gnu/libGL.so
-/home/jorge/Escritorio/code/bin/ytrace: apps/CMakeFiles/ytrace.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/jorge/Escritorio/code/bin/ytrace"
-	cd /home/jorge/Escritorio/code/build/apps && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ytrace.dir/link.txt --verbose=$(VERBOSE)
+/home/jorge/Escritorio/RaytracingCornellbox/bin/ytrace: apps/CMakeFiles/ytrace.dir/ytrace.cpp.o
+/home/jorge/Escritorio/RaytracingCornellbox/bin/ytrace: apps/CMakeFiles/ytrace.dir/build.make
+/home/jorge/Escritorio/RaytracingCornellbox/bin/ytrace: /home/jorge/Escritorio/RaytracingCornellbox/bin/libyocto.a
+/home/jorge/Escritorio/RaytracingCornellbox/bin/ytrace: /home/jorge/Escritorio/RaytracingCornellbox/bin/libstb_image.a
+/home/jorge/Escritorio/RaytracingCornellbox/bin/ytrace: /home/jorge/Escritorio/RaytracingCornellbox/bin/libtinyexr.a
+/home/jorge/Escritorio/RaytracingCornellbox/bin/ytrace: /home/jorge/Escritorio/RaytracingCornellbox/bin/libcgltf.a
+/home/jorge/Escritorio/RaytracingCornellbox/bin/ytrace: /home/jorge/Escritorio/RaytracingCornellbox/bin/libimgui.a
+/home/jorge/Escritorio/RaytracingCornellbox/bin/ytrace: /home/jorge/Escritorio/RaytracingCornellbox/bin/libglad.a
+/home/jorge/Escritorio/RaytracingCornellbox/bin/ytrace: /home/jorge/Escritorio/RaytracingCornellbox/bin/libglfw3.a
+/home/jorge/Escritorio/RaytracingCornellbox/bin/ytrace: /usr/lib/x86_64-linux-gnu/librt.a
+/home/jorge/Escritorio/RaytracingCornellbox/bin/ytrace: /usr/lib/x86_64-linux-gnu/libm.so
+/home/jorge/Escritorio/RaytracingCornellbox/bin/ytrace: /usr/lib/x86_64-linux-gnu/libX11.so
+/home/jorge/Escritorio/RaytracingCornellbox/bin/ytrace: /usr/lib/x86_64-linux-gnu/libGL.so
+/home/jorge/Escritorio/RaytracingCornellbox/bin/ytrace: apps/CMakeFiles/ytrace.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/jorge/Escritorio/RaytracingCornellbox/bin/ytrace"
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/apps && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ytrace.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-apps/CMakeFiles/ytrace.dir/build: /home/jorge/Escritorio/code/bin/ytrace
+apps/CMakeFiles/ytrace.dir/build: /home/jorge/Escritorio/RaytracingCornellbox/bin/ytrace
 .PHONY : apps/CMakeFiles/ytrace.dir/build
 
 apps/CMakeFiles/ytrace.dir/clean:
-	cd /home/jorge/Escritorio/code/build/apps && $(CMAKE_COMMAND) -P CMakeFiles/ytrace.dir/cmake_clean.cmake
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/apps && $(CMAKE_COMMAND) -P CMakeFiles/ytrace.dir/cmake_clean.cmake
 .PHONY : apps/CMakeFiles/ytrace.dir/clean
 
 apps/CMakeFiles/ytrace.dir/depend:
-	cd /home/jorge/Escritorio/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jorge/Escritorio/code /home/jorge/Escritorio/code/apps /home/jorge/Escritorio/code/build /home/jorge/Escritorio/code/build/apps /home/jorge/Escritorio/code/build/apps/CMakeFiles/ytrace.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jorge/Escritorio/RaytracingCornellbox /home/jorge/Escritorio/RaytracingCornellbox/apps /home/jorge/Escritorio/RaytracingCornellbox/build /home/jorge/Escritorio/RaytracingCornellbox/build/apps /home/jorge/Escritorio/RaytracingCornellbox/build/apps/CMakeFiles/ytrace.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : apps/CMakeFiles/ytrace.dir/depend
 

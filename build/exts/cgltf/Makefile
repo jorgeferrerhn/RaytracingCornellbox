@@ -57,10 +57,10 @@ RM = /snap/cmake/1216/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jorge/Escritorio/code
+CMAKE_SOURCE_DIR = /home/jorge/Escritorio/RaytracingCornellbox
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jorge/Escritorio/code/build
+CMAKE_BINARY_DIR = /home/jorge/Escritorio/RaytracingCornellbox/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jorge/Escritorio/code/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles /home/jorge/Escritorio/code/build/exts/cgltf//CMakeFiles/progress.marks
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exts/cgltf/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles /home/jorge/Escritorio/RaytracingCornellbox/build/exts/cgltf//CMakeFiles/progress.marks
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exts/cgltf/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exts/cgltf/clean
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exts/cgltf/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exts/cgltf/preinstall
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exts/cgltf/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exts/cgltf/preinstall
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exts/cgltf/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jorge/Escritorio/code/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 exts/cgltf/CMakeFiles/cgltf.dir/rule:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exts/cgltf/CMakeFiles/cgltf.dir/rule
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exts/cgltf/CMakeFiles/cgltf.dir/rule
 .PHONY : exts/cgltf/CMakeFiles/cgltf.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ cgltf: exts/cgltf/CMakeFiles/cgltf.dir/rule
 
 # fast build rule for target.
 cgltf/fast:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f exts/cgltf/CMakeFiles/cgltf.dir/build.make exts/cgltf/CMakeFiles/cgltf.dir/build
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f exts/cgltf/CMakeFiles/cgltf.dir/build.make exts/cgltf/CMakeFiles/cgltf.dir/build
 .PHONY : cgltf/fast
 
 cgltf/cgltf.o: cgltf/cgltf.c.o
@@ -180,7 +180,7 @@ cgltf/cgltf.o: cgltf/cgltf.c.o
 
 # target to build an object file
 cgltf/cgltf.c.o:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f exts/cgltf/CMakeFiles/cgltf.dir/build.make exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf.c.o
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f exts/cgltf/CMakeFiles/cgltf.dir/build.make exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf.c.o
 .PHONY : cgltf/cgltf.c.o
 
 cgltf/cgltf.i: cgltf/cgltf.c.i
@@ -188,7 +188,7 @@ cgltf/cgltf.i: cgltf/cgltf.c.i
 
 # target to preprocess a source file
 cgltf/cgltf.c.i:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f exts/cgltf/CMakeFiles/cgltf.dir/build.make exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf.c.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f exts/cgltf/CMakeFiles/cgltf.dir/build.make exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf.c.i
 .PHONY : cgltf/cgltf.c.i
 
 cgltf/cgltf.s: cgltf/cgltf.c.s
@@ -196,7 +196,7 @@ cgltf/cgltf.s: cgltf/cgltf.c.s
 
 # target to generate assembly for a file
 cgltf/cgltf.c.s:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f exts/cgltf/CMakeFiles/cgltf.dir/build.make exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf.c.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f exts/cgltf/CMakeFiles/cgltf.dir/build.make exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf.c.s
 .PHONY : cgltf/cgltf.c.s
 
 cgltf/cgltf_write.o: cgltf/cgltf_write.c.o
@@ -204,7 +204,7 @@ cgltf/cgltf_write.o: cgltf/cgltf_write.c.o
 
 # target to build an object file
 cgltf/cgltf_write.c.o:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f exts/cgltf/CMakeFiles/cgltf.dir/build.make exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f exts/cgltf/CMakeFiles/cgltf.dir/build.make exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o
 .PHONY : cgltf/cgltf_write.c.o
 
 cgltf/cgltf_write.i: cgltf/cgltf_write.c.i
@@ -212,7 +212,7 @@ cgltf/cgltf_write.i: cgltf/cgltf_write.c.i
 
 # target to preprocess a source file
 cgltf/cgltf_write.c.i:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f exts/cgltf/CMakeFiles/cgltf.dir/build.make exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f exts/cgltf/CMakeFiles/cgltf.dir/build.make exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.i
 .PHONY : cgltf/cgltf_write.c.i
 
 cgltf/cgltf_write.s: cgltf/cgltf_write.c.s
@@ -220,7 +220,7 @@ cgltf/cgltf_write.s: cgltf/cgltf_write.c.s
 
 # target to generate assembly for a file
 cgltf/cgltf_write.c.s:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f exts/cgltf/CMakeFiles/cgltf.dir/build.make exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f exts/cgltf/CMakeFiles/cgltf.dir/build.make exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.s
 .PHONY : cgltf/cgltf_write.c.s
 
 # Help Target
@@ -253,6 +253,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jorge/Escritorio/code/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jorge/Escritorio/code/bin/yview"
-  "/home/jorge/Escritorio/code/bin/yview.pdb"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/yview"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/yview.pdb"
   "CMakeFiles/yview.dir/yview.cpp.o"
   "CMakeFiles/yview.dir/yview.cpp.o.d"
 )

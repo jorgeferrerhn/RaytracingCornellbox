@@ -1,4 +1,4 @@
-# Install script for directory: /home/jorge/Escritorio/code/exts/glfw/src
+# Install script for directory: /home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

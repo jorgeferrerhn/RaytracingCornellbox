@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jorge/Escritorio/code/bin/libyocto_examples.a"
-  "/home/jorge/Escritorio/code/bin/libyocto_examples.pdb"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/libyocto_examples.a"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/libyocto_examples.pdb"
   "CMakeFiles/yocto_examples.dir/yocto_grade.cpp.o"
   "CMakeFiles/yocto_examples.dir/yocto_grade.cpp.o.d"
   "CMakeFiles/yocto_examples.dir/yocto_raytrace.cpp.o"

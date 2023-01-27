@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jorge/Escritorio/code/bin/libyocto.a"
-  "/home/jorge/Escritorio/code/bin/libyocto.pdb"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/libyocto.a"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/libyocto.pdb"
   "CMakeFiles/yocto.dir/yocto_bvh.cpp.o"
   "CMakeFiles/yocto.dir/yocto_bvh.cpp.o.d"
   "CMakeFiles/yocto.dir/yocto_cutrace.cpp.o"

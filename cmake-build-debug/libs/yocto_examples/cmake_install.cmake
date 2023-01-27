@@ -1,4 +1,4 @@
-# Install script for directory: /home/jorge/Escritorio/code/libs/yocto_examples
+# Install script for directory: /home/jorge/Escritorio/RaytracingCornellbox/libs/yocto_examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -53,10 +53,10 @@ RM = /snap/cmake/1216/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jorge/Escritorio/code
+CMAKE_SOURCE_DIR = /home/jorge/Escritorio/RaytracingCornellbox
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jorge/Escritorio/code/build
+CMAKE_BINARY_DIR = /home/jorge/Escritorio/RaytracingCornellbox/build
 
 # Include any dependencies generated for this target.
 include exts/stb_image/CMakeFiles/stb_image.dir/depend.make
@@ -70,18 +70,18 @@ include exts/stb_image/CMakeFiles/stb_image.dir/progress.make
 include exts/stb_image/CMakeFiles/stb_image.dir/flags.make
 
 exts/stb_image/CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o: exts/stb_image/CMakeFiles/stb_image.dir/flags.make
-exts/stb_image/CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o: /home/jorge/Escritorio/code/exts/stb_image/stb_image/stb_image.cpp
+exts/stb_image/CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o: /home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/stb_image/stb_image.cpp
 exts/stb_image/CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o: exts/stb_image/CMakeFiles/stb_image.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object exts/stb_image/CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o"
-	cd /home/jorge/Escritorio/code/build/exts/stb_image && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT exts/stb_image/CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o -MF CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o.d -o CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o -c /home/jorge/Escritorio/code/exts/stb_image/stb_image/stb_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object exts/stb_image/CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o"
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/exts/stb_image && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT exts/stb_image/CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o -MF CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o.d -o CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/stb_image/stb_image.cpp
 
 exts/stb_image/CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.i"
-	cd /home/jorge/Escritorio/code/build/exts/stb_image && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jorge/Escritorio/code/exts/stb_image/stb_image/stb_image.cpp > CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/exts/stb_image && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/stb_image/stb_image.cpp > CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.i
 
 exts/stb_image/CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.s"
-	cd /home/jorge/Escritorio/code/build/exts/stb_image && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jorge/Escritorio/code/exts/stb_image/stb_image/stb_image.cpp -o CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/exts/stb_image && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/stb_image/stb_image.cpp -o CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.s
 
 # Object files for target stb_image
 stb_image_OBJECTS = \
@@ -90,22 +90,22 @@ stb_image_OBJECTS = \
 # External object files for target stb_image
 stb_image_EXTERNAL_OBJECTS =
 
-/home/jorge/Escritorio/code/bin/libstb_image.a: exts/stb_image/CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o
-/home/jorge/Escritorio/code/bin/libstb_image.a: exts/stb_image/CMakeFiles/stb_image.dir/build.make
-/home/jorge/Escritorio/code/bin/libstb_image.a: exts/stb_image/CMakeFiles/stb_image.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library /home/jorge/Escritorio/code/bin/libstb_image.a"
-	cd /home/jorge/Escritorio/code/build/exts/stb_image && $(CMAKE_COMMAND) -P CMakeFiles/stb_image.dir/cmake_clean_target.cmake
-	cd /home/jorge/Escritorio/code/build/exts/stb_image && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stb_image.dir/link.txt --verbose=$(VERBOSE)
+/home/jorge/Escritorio/RaytracingCornellbox/bin/libstb_image.a: exts/stb_image/CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o
+/home/jorge/Escritorio/RaytracingCornellbox/bin/libstb_image.a: exts/stb_image/CMakeFiles/stb_image.dir/build.make
+/home/jorge/Escritorio/RaytracingCornellbox/bin/libstb_image.a: exts/stb_image/CMakeFiles/stb_image.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library /home/jorge/Escritorio/RaytracingCornellbox/bin/libstb_image.a"
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/exts/stb_image && $(CMAKE_COMMAND) -P CMakeFiles/stb_image.dir/cmake_clean_target.cmake
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/exts/stb_image && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stb_image.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-exts/stb_image/CMakeFiles/stb_image.dir/build: /home/jorge/Escritorio/code/bin/libstb_image.a
+exts/stb_image/CMakeFiles/stb_image.dir/build: /home/jorge/Escritorio/RaytracingCornellbox/bin/libstb_image.a
 .PHONY : exts/stb_image/CMakeFiles/stb_image.dir/build
 
 exts/stb_image/CMakeFiles/stb_image.dir/clean:
-	cd /home/jorge/Escritorio/code/build/exts/stb_image && $(CMAKE_COMMAND) -P CMakeFiles/stb_image.dir/cmake_clean.cmake
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/exts/stb_image && $(CMAKE_COMMAND) -P CMakeFiles/stb_image.dir/cmake_clean.cmake
 .PHONY : exts/stb_image/CMakeFiles/stb_image.dir/clean
 
 exts/stb_image/CMakeFiles/stb_image.dir/depend:
-	cd /home/jorge/Escritorio/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jorge/Escritorio/code /home/jorge/Escritorio/code/exts/stb_image /home/jorge/Escritorio/code/build /home/jorge/Escritorio/code/build/exts/stb_image /home/jorge/Escritorio/code/build/exts/stb_image/CMakeFiles/stb_image.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jorge/Escritorio/RaytracingCornellbox /home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image /home/jorge/Escritorio/RaytracingCornellbox/build /home/jorge/Escritorio/RaytracingCornellbox/build/exts/stb_image /home/jorge/Escritorio/RaytracingCornellbox/build/exts/stb_image/CMakeFiles/stb_image.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : exts/stb_image/CMakeFiles/stb_image.dir/depend
 

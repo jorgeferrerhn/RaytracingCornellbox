@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jorge/Escritorio/code/exts/cgltf/cgltf/cgltf.c" "exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf.c.o" "gcc" "exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf.c.o.d"
-  "/home/jorge/Escritorio/code/exts/cgltf/cgltf/cgltf_write.c" "exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o" "gcc" "exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o.d"
+  "/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf/cgltf.c" "exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf.c.o" "gcc" "exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf.c.o.d"
+  "/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf/cgltf_write.c" "exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o" "gcc" "exts/cgltf/CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o.d"
   )
 
 # Targets to which this target links.

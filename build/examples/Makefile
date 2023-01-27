@@ -57,10 +57,10 @@ RM = /snap/cmake/1216/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jorge/Escritorio/code
+CMAKE_SOURCE_DIR = /home/jorge/Escritorio/RaytracingCornellbox
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jorge/Escritorio/code/build
+CMAKE_BINARY_DIR = /home/jorge/Escritorio/RaytracingCornellbox/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jorge/Escritorio/code/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles /home/jorge/Escritorio/code/build/examples//CMakeFiles/progress.marks
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/code/build/CMakeFiles 0
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles /home/jorge/Escritorio/RaytracingCornellbox/build/examples//CMakeFiles/progress.marks
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/clean
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/preinstall
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/preinstall
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jorge/Escritorio/code/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/CMakeFiles/ygrade.dir/rule:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/ygrade.dir/rule
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/ygrade.dir/rule
 .PHONY : examples/CMakeFiles/ygrade.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ ygrade: examples/CMakeFiles/ygrade.dir/rule
 
 # fast build rule for target.
 ygrade/fast:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/ygrade.dir/build.make examples/CMakeFiles/ygrade.dir/build
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/ygrade.dir/build.make examples/CMakeFiles/ygrade.dir/build
 .PHONY : ygrade/fast
 
 # Convenience name for target.
 examples/CMakeFiles/yraytrace.dir/rule:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/yraytrace.dir/rule
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/yraytrace.dir/rule
 .PHONY : examples/CMakeFiles/yraytrace.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ yraytrace: examples/CMakeFiles/yraytrace.dir/rule
 
 # fast build rule for target.
 yraytrace/fast:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/yraytrace.dir/build.make examples/CMakeFiles/yraytrace.dir/build
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/yraytrace.dir/build.make examples/CMakeFiles/yraytrace.dir/build
 .PHONY : yraytrace/fast
 
 ygrade.o: ygrade.cpp.o
@@ -194,7 +194,7 @@ ygrade.o: ygrade.cpp.o
 
 # target to build an object file
 ygrade.cpp.o:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/ygrade.dir/build.make examples/CMakeFiles/ygrade.dir/ygrade.cpp.o
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/ygrade.dir/build.make examples/CMakeFiles/ygrade.dir/ygrade.cpp.o
 .PHONY : ygrade.cpp.o
 
 ygrade.i: ygrade.cpp.i
@@ -202,7 +202,7 @@ ygrade.i: ygrade.cpp.i
 
 # target to preprocess a source file
 ygrade.cpp.i:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/ygrade.dir/build.make examples/CMakeFiles/ygrade.dir/ygrade.cpp.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/ygrade.dir/build.make examples/CMakeFiles/ygrade.dir/ygrade.cpp.i
 .PHONY : ygrade.cpp.i
 
 ygrade.s: ygrade.cpp.s
@@ -210,7 +210,7 @@ ygrade.s: ygrade.cpp.s
 
 # target to generate assembly for a file
 ygrade.cpp.s:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/ygrade.dir/build.make examples/CMakeFiles/ygrade.dir/ygrade.cpp.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/ygrade.dir/build.make examples/CMakeFiles/ygrade.dir/ygrade.cpp.s
 .PHONY : ygrade.cpp.s
 
 yraytrace.o: yraytrace.cpp.o
@@ -218,7 +218,7 @@ yraytrace.o: yraytrace.cpp.o
 
 # target to build an object file
 yraytrace.cpp.o:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/yraytrace.dir/build.make examples/CMakeFiles/yraytrace.dir/yraytrace.cpp.o
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/yraytrace.dir/build.make examples/CMakeFiles/yraytrace.dir/yraytrace.cpp.o
 .PHONY : yraytrace.cpp.o
 
 yraytrace.i: yraytrace.cpp.i
@@ -226,7 +226,7 @@ yraytrace.i: yraytrace.cpp.i
 
 # target to preprocess a source file
 yraytrace.cpp.i:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/yraytrace.dir/build.make examples/CMakeFiles/yraytrace.dir/yraytrace.cpp.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/yraytrace.dir/build.make examples/CMakeFiles/yraytrace.dir/yraytrace.cpp.i
 .PHONY : yraytrace.cpp.i
 
 yraytrace.s: yraytrace.cpp.s
@@ -234,7 +234,7 @@ yraytrace.s: yraytrace.cpp.s
 
 # target to generate assembly for a file
 yraytrace.cpp.s:
-	cd /home/jorge/Escritorio/code/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/yraytrace.dir/build.make examples/CMakeFiles/yraytrace.dir/yraytrace.cpp.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/yraytrace.dir/build.make examples/CMakeFiles/yraytrace.dir/yraytrace.cpp.s
 .PHONY : yraytrace.cpp.s
 
 # Help Target
@@ -268,6 +268,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jorge/Escritorio/code/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

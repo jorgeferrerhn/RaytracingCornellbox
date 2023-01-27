@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jorge/Escritorio/code/bin/ytonemap"
-  "/home/jorge/Escritorio/code/bin/ytonemap.pdb"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/ytonemap"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/ytonemap.pdb"
   "CMakeFiles/ytonemap.dir/ytonemap.cpp.o"
   "CMakeFiles/ytonemap.dir/ytonemap.cpp.o.d"
 )

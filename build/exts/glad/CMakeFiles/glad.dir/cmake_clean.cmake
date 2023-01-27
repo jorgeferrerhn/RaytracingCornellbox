@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jorge/Escritorio/code/bin/libglad.a"
-  "/home/jorge/Escritorio/code/bin/libglad.pdb"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/libglad.a"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/libglad.pdb"
   "CMakeFiles/glad.dir/glad/glad.c.o"
   "CMakeFiles/glad.dir/glad/glad.c.o.d"
 )

@@ -1,4 +1,4 @@
-# Install script for directory: /home/jorge/Escritorio/code/libs
+# Install script for directory: /home/jorge/Escritorio/RaytracingCornellbox/libs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,11 +44,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/jorge/Escritorio/code/build/libs/yocto/cmake_install.cmake")
+  include("/home/jorge/Escritorio/RaytracingCornellbox/build/libs/yocto/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/jorge/Escritorio/code/build/libs/yocto_examples/cmake_install.cmake")
+  include("/home/jorge/Escritorio/RaytracingCornellbox/build/libs/yocto_examples/cmake_install.cmake")
 endif()
 

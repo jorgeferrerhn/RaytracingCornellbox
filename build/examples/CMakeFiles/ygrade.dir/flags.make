@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DYOCTO_OPENGL
 
-CXX_INCLUDES = -I/home/jorge/Escritorio/code/libs -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include
+CXX_INCLUDES = -I/home/jorge/Escritorio/RaytracingCornellbox/libs -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include
 
 CXX_FLAGS = -O2 -g -DNDEBUG -std=gnu++17
 

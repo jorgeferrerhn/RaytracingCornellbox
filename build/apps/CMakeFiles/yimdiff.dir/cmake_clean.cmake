@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jorge/Escritorio/code/bin/yimdiff"
-  "/home/jorge/Escritorio/code/bin/yimdiff.pdb"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/yimdiff"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/yimdiff.pdb"
   "CMakeFiles/yimdiff.dir/yimdiff.cpp.o"
   "CMakeFiles/yimdiff.dir/yimdiff.cpp.o.d"
 )

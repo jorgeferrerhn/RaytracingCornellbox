@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jorge/Escritorio/code/bin/yimalpha"
-  "/home/jorge/Escritorio/code/bin/yimalpha.pdb"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/yimalpha"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/yimalpha.pdb"
   "CMakeFiles/yimalpha.dir/yimalpha.cpp.o"
   "CMakeFiles/yimalpha.dir/yimalpha.cpp.o.d"
 )

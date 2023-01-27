@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jorge/Escritorio/code/bin/ysamples"
-  "/home/jorge/Escritorio/code/bin/ysamples.pdb"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/ysamples"
+  "/home/jorge/Escritorio/RaytracingCornellbox/bin/ysamples.pdb"
   "CMakeFiles/ysamples.dir/ysamples.cpp.o"
   "CMakeFiles/ysamples.dir/ysamples.cpp.o.d"
 )

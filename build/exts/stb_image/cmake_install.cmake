@@ -1,4 +1,4 @@
-# Install script for directory: /home/jorge/Escritorio/code/exts/stb_image
+# Install script for directory: /home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

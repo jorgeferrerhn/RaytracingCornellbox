@@ -53,10 +53,10 @@ RM = /snap/cmake/1216/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jorge/Escritorio/code
+CMAKE_SOURCE_DIR = /home/jorge/Escritorio/RaytracingCornellbox
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jorge/Escritorio/code/build
+CMAKE_BINARY_DIR = /home/jorge/Escritorio/RaytracingCornellbox/build
 
 # Include any dependencies generated for this target.
 include exts/glad/CMakeFiles/glad.dir/depend.make
@@ -70,18 +70,18 @@ include exts/glad/CMakeFiles/glad.dir/progress.make
 include exts/glad/CMakeFiles/glad.dir/flags.make
 
 exts/glad/CMakeFiles/glad.dir/glad/glad.c.o: exts/glad/CMakeFiles/glad.dir/flags.make
-exts/glad/CMakeFiles/glad.dir/glad/glad.c.o: /home/jorge/Escritorio/code/exts/glad/glad/glad.c
+exts/glad/CMakeFiles/glad.dir/glad/glad.c.o: /home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad/glad.c
 exts/glad/CMakeFiles/glad.dir/glad/glad.c.o: exts/glad/CMakeFiles/glad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object exts/glad/CMakeFiles/glad.dir/glad/glad.c.o"
-	cd /home/jorge/Escritorio/code/build/exts/glad && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT exts/glad/CMakeFiles/glad.dir/glad/glad.c.o -MF CMakeFiles/glad.dir/glad/glad.c.o.d -o CMakeFiles/glad.dir/glad/glad.c.o -c /home/jorge/Escritorio/code/exts/glad/glad/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object exts/glad/CMakeFiles/glad.dir/glad/glad.c.o"
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/exts/glad && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT exts/glad/CMakeFiles/glad.dir/glad/glad.c.o -MF CMakeFiles/glad.dir/glad/glad.c.o.d -o CMakeFiles/glad.dir/glad/glad.c.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad/glad.c
 
 exts/glad/CMakeFiles/glad.dir/glad/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glad.dir/glad/glad.c.i"
-	cd /home/jorge/Escritorio/code/build/exts/glad && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jorge/Escritorio/code/exts/glad/glad/glad.c > CMakeFiles/glad.dir/glad/glad.c.i
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/exts/glad && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad/glad.c > CMakeFiles/glad.dir/glad/glad.c.i
 
 exts/glad/CMakeFiles/glad.dir/glad/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glad.dir/glad/glad.c.s"
-	cd /home/jorge/Escritorio/code/build/exts/glad && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jorge/Escritorio/code/exts/glad/glad/glad.c -o CMakeFiles/glad.dir/glad/glad.c.s
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/exts/glad && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad/glad.c -o CMakeFiles/glad.dir/glad/glad.c.s
 
 # Object files for target glad
 glad_OBJECTS = \
@@ -90,22 +90,22 @@ glad_OBJECTS = \
 # External object files for target glad
 glad_EXTERNAL_OBJECTS =
 
-/home/jorge/Escritorio/code/bin/libglad.a: exts/glad/CMakeFiles/glad.dir/glad/glad.c.o
-/home/jorge/Escritorio/code/bin/libglad.a: exts/glad/CMakeFiles/glad.dir/build.make
-/home/jorge/Escritorio/code/bin/libglad.a: exts/glad/CMakeFiles/glad.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jorge/Escritorio/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library /home/jorge/Escritorio/code/bin/libglad.a"
-	cd /home/jorge/Escritorio/code/build/exts/glad && $(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean_target.cmake
-	cd /home/jorge/Escritorio/code/build/exts/glad && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glad.dir/link.txt --verbose=$(VERBOSE)
+/home/jorge/Escritorio/RaytracingCornellbox/bin/libglad.a: exts/glad/CMakeFiles/glad.dir/glad/glad.c.o
+/home/jorge/Escritorio/RaytracingCornellbox/bin/libglad.a: exts/glad/CMakeFiles/glad.dir/build.make
+/home/jorge/Escritorio/RaytracingCornellbox/bin/libglad.a: exts/glad/CMakeFiles/glad.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jorge/Escritorio/RaytracingCornellbox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library /home/jorge/Escritorio/RaytracingCornellbox/bin/libglad.a"
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/exts/glad && $(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean_target.cmake
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/exts/glad && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glad.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-exts/glad/CMakeFiles/glad.dir/build: /home/jorge/Escritorio/code/bin/libglad.a
+exts/glad/CMakeFiles/glad.dir/build: /home/jorge/Escritorio/RaytracingCornellbox/bin/libglad.a
 .PHONY : exts/glad/CMakeFiles/glad.dir/build
 
 exts/glad/CMakeFiles/glad.dir/clean:
-	cd /home/jorge/Escritorio/code/build/exts/glad && $(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean.cmake
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build/exts/glad && $(CMAKE_COMMAND) -P CMakeFiles/glad.dir/cmake_clean.cmake
 .PHONY : exts/glad/CMakeFiles/glad.dir/clean
 
 exts/glad/CMakeFiles/glad.dir/depend:
-	cd /home/jorge/Escritorio/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jorge/Escritorio/code /home/jorge/Escritorio/code/exts/glad /home/jorge/Escritorio/code/build /home/jorge/Escritorio/code/build/exts/glad /home/jorge/Escritorio/code/build/exts/glad/CMakeFiles/glad.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jorge/Escritorio/RaytracingCornellbox/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jorge/Escritorio/RaytracingCornellbox /home/jorge/Escritorio/RaytracingCornellbox/exts/glad /home/jorge/Escritorio/RaytracingCornellbox/build /home/jorge/Escritorio/RaytracingCornellbox/build/exts/glad /home/jorge/Escritorio/RaytracingCornellbox/build/exts/glad/CMakeFiles/glad.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : exts/glad/CMakeFiles/glad.dir/depend
 

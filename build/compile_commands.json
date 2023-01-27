@@ -1,257 +1,257 @@
 [
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/stb_image",
-  "command": "/usr/bin/c++  -I/home/jorge/Escritorio/code/exts/stb_image/. -I/home/jorge/Escritorio/code/exts/stb_image/stb_image -O2 -g -DNDEBUG -std=gnu++11 -o CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o -c /home/jorge/Escritorio/code/exts/stb_image/stb_image/stb_image.cpp",
-  "file": "/home/jorge/Escritorio/code/exts/stb_image/stb_image/stb_image.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/stb_image",
+  "command": "/usr/bin/c++  -I/home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/stb_image -O2 -g -DNDEBUG -std=gnu++11 -o CMakeFiles/stb_image.dir/stb_image/stb_image.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/stb_image/stb_image.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/stb_image/stb_image.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/tinyexr",
-  "command": "/usr/bin/c++  -I/home/jorge/Escritorio/code/exts/tinyexr/. -I/home/jorge/Escritorio/code/exts/tinyexr/tinyexr -O2 -g -DNDEBUG -std=gnu++11 -o CMakeFiles/tinyexr.dir/tinyexr/tinyexr.cpp.o -c /home/jorge/Escritorio/code/exts/tinyexr/tinyexr/tinyexr.cpp",
-  "file": "/home/jorge/Escritorio/code/exts/tinyexr/tinyexr/tinyexr.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/tinyexr",
+  "command": "/usr/bin/c++  -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/tinyexr -O2 -g -DNDEBUG -std=gnu++11 -o CMakeFiles/tinyexr.dir/tinyexr/tinyexr.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/tinyexr/tinyexr.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/tinyexr/tinyexr.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/cgltf",
-  "command": "/usr/bin/cc  -I/home/jorge/Escritorio/code/exts/cgltf/. -I/home/jorge/Escritorio/code/exts/cgltf/cgltf -O2 -g -DNDEBUG -o CMakeFiles/cgltf.dir/cgltf/cgltf.c.o -c /home/jorge/Escritorio/code/exts/cgltf/cgltf/cgltf.c",
-  "file": "/home/jorge/Escritorio/code/exts/cgltf/cgltf/cgltf.c"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/cgltf",
+  "command": "/usr/bin/cc  -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf -O2 -g -DNDEBUG -o CMakeFiles/cgltf.dir/cgltf/cgltf.c.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf/cgltf.c",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf/cgltf.c"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/cgltf",
-  "command": "/usr/bin/cc  -I/home/jorge/Escritorio/code/exts/cgltf/. -I/home/jorge/Escritorio/code/exts/cgltf/cgltf -O2 -g -DNDEBUG -o CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o -c /home/jorge/Escritorio/code/exts/cgltf/cgltf/cgltf_write.c",
-  "file": "/home/jorge/Escritorio/code/exts/cgltf/cgltf/cgltf_write.c"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/cgltf",
+  "command": "/usr/bin/cc  -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf -O2 -g -DNDEBUG -o CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf/cgltf_write.c",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf/cgltf_write.c"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glfw/src -I/home/jorge/Escritorio/code/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/context.c.o -c /home/jorge/Escritorio/code/exts/glfw/src/context.c",
-  "file": "/home/jorge/Escritorio/code/exts/glfw/src/context.c"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src -I/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/context.c.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/context.c",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/context.c"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glfw/src -I/home/jorge/Escritorio/code/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/init.c.o -c /home/jorge/Escritorio/code/exts/glfw/src/init.c",
-  "file": "/home/jorge/Escritorio/code/exts/glfw/src/init.c"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src -I/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/init.c.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/init.c",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/init.c"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glfw/src -I/home/jorge/Escritorio/code/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/input.c.o -c /home/jorge/Escritorio/code/exts/glfw/src/input.c",
-  "file": "/home/jorge/Escritorio/code/exts/glfw/src/input.c"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src -I/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/input.c.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/input.c",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/input.c"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glfw/src -I/home/jorge/Escritorio/code/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/monitor.c.o -c /home/jorge/Escritorio/code/exts/glfw/src/monitor.c",
-  "file": "/home/jorge/Escritorio/code/exts/glfw/src/monitor.c"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src -I/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/monitor.c.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/monitor.c",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/monitor.c"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glfw/src -I/home/jorge/Escritorio/code/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/vulkan.c.o -c /home/jorge/Escritorio/code/exts/glfw/src/vulkan.c",
-  "file": "/home/jorge/Escritorio/code/exts/glfw/src/vulkan.c"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src -I/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/vulkan.c.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/vulkan.c",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/vulkan.c"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glfw/src -I/home/jorge/Escritorio/code/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/window.c.o -c /home/jorge/Escritorio/code/exts/glfw/src/window.c",
-  "file": "/home/jorge/Escritorio/code/exts/glfw/src/window.c"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src -I/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/window.c.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/window.c",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/window.c"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glfw/src -I/home/jorge/Escritorio/code/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_init.c.o -c /home/jorge/Escritorio/code/exts/glfw/src/x11_init.c",
-  "file": "/home/jorge/Escritorio/code/exts/glfw/src/x11_init.c"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src -I/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_init.c.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/x11_init.c",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/x11_init.c"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glfw/src -I/home/jorge/Escritorio/code/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_monitor.c.o -c /home/jorge/Escritorio/code/exts/glfw/src/x11_monitor.c",
-  "file": "/home/jorge/Escritorio/code/exts/glfw/src/x11_monitor.c"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src -I/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_monitor.c.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/x11_monitor.c",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/x11_monitor.c"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glfw/src -I/home/jorge/Escritorio/code/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_window.c.o -c /home/jorge/Escritorio/code/exts/glfw/src/x11_window.c",
-  "file": "/home/jorge/Escritorio/code/exts/glfw/src/x11_window.c"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src -I/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_window.c.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/x11_window.c",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/x11_window.c"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glfw/src -I/home/jorge/Escritorio/code/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/xkb_unicode.c.o -c /home/jorge/Escritorio/code/exts/glfw/src/xkb_unicode.c",
-  "file": "/home/jorge/Escritorio/code/exts/glfw/src/xkb_unicode.c"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src -I/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/xkb_unicode.c.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/xkb_unicode.c",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/xkb_unicode.c"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glfw/src -I/home/jorge/Escritorio/code/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/posix_time.c.o -c /home/jorge/Escritorio/code/exts/glfw/src/posix_time.c",
-  "file": "/home/jorge/Escritorio/code/exts/glfw/src/posix_time.c"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src -I/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/posix_time.c.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/posix_time.c",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/posix_time.c"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glfw/src -I/home/jorge/Escritorio/code/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/posix_thread.c.o -c /home/jorge/Escritorio/code/exts/glfw/src/posix_thread.c",
-  "file": "/home/jorge/Escritorio/code/exts/glfw/src/posix_thread.c"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src -I/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/posix_thread.c.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/posix_thread.c",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/posix_thread.c"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glfw/src -I/home/jorge/Escritorio/code/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/glx_context.c.o -c /home/jorge/Escritorio/code/exts/glfw/src/glx_context.c",
-  "file": "/home/jorge/Escritorio/code/exts/glfw/src/glx_context.c"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src -I/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/glx_context.c.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/glx_context.c",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/glx_context.c"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glfw/src -I/home/jorge/Escritorio/code/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/egl_context.c.o -c /home/jorge/Escritorio/code/exts/glfw/src/egl_context.c",
-  "file": "/home/jorge/Escritorio/code/exts/glfw/src/egl_context.c"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src -I/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/egl_context.c.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/egl_context.c",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/egl_context.c"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glfw/src -I/home/jorge/Escritorio/code/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/jorge/Escritorio/code/exts/glfw/src/osmesa_context.c",
-  "file": "/home/jorge/Escritorio/code/exts/glfw/src/osmesa_context.c"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src -I/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/osmesa_context.c",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/osmesa_context.c"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/glfw/src",
-  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glfw/src -I/home/jorge/Escritorio/code/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/jorge/Escritorio/code/exts/glfw/src/linux_joystick.c",
-  "file": "/home/jorge/Escritorio/code/exts/glfw/src/linux_joystick.c"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src",
+  "command": "/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src -I/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glfw/src -O2 -g -DNDEBUG -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/linux_joystick.c",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/src/linux_joystick.c"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/glad",
-  "command": "/usr/bin/cc  -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -O2 -g -DNDEBUG -o CMakeFiles/glad.dir/glad/glad.c.o -c /home/jorge/Escritorio/code/exts/glad/glad/glad.c",
-  "file": "/home/jorge/Escritorio/code/exts/glad/glad/glad.c"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/glad",
+  "command": "/usr/bin/cc  -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -O2 -g -DNDEBUG -o CMakeFiles/glad.dir/glad/glad.c.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad/glad.c",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad/glad.c"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/imgui",
-  "command": "/usr/bin/c++ -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -O2 -g -DNDEBUG -std=gnu++11 -o CMakeFiles/imgui.dir/imgui/imgui.cpp.o -c /home/jorge/Escritorio/code/exts/imgui/imgui/imgui.cpp",
-  "file": "/home/jorge/Escritorio/code/exts/imgui/imgui/imgui.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/imgui",
+  "command": "/usr/bin/c++ -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -O2 -g -DNDEBUG -std=gnu++11 -o CMakeFiles/imgui.dir/imgui/imgui.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/imgui.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/imgui.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/imgui",
-  "command": "/usr/bin/c++ -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -O2 -g -DNDEBUG -std=gnu++11 -o CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o -c /home/jorge/Escritorio/code/exts/imgui/imgui/imgui_draw.cpp",
-  "file": "/home/jorge/Escritorio/code/exts/imgui/imgui/imgui_draw.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/imgui",
+  "command": "/usr/bin/c++ -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -O2 -g -DNDEBUG -std=gnu++11 -o CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/imgui_draw.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/imgui_draw.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/imgui",
-  "command": "/usr/bin/c++ -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -O2 -g -DNDEBUG -std=gnu++11 -o CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.o -c /home/jorge/Escritorio/code/exts/imgui/imgui/imgui_tables.cpp",
-  "file": "/home/jorge/Escritorio/code/exts/imgui/imgui/imgui_tables.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/imgui",
+  "command": "/usr/bin/c++ -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -O2 -g -DNDEBUG -std=gnu++11 -o CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/imgui_tables.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/imgui_tables.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/imgui",
-  "command": "/usr/bin/c++ -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -O2 -g -DNDEBUG -std=gnu++11 -o CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.o -c /home/jorge/Escritorio/code/exts/imgui/imgui/imgui_widgets.cpp",
-  "file": "/home/jorge/Escritorio/code/exts/imgui/imgui/imgui_widgets.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/imgui",
+  "command": "/usr/bin/c++ -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -O2 -g -DNDEBUG -std=gnu++11 -o CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/imgui_widgets.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/imgui_widgets.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/imgui",
-  "command": "/usr/bin/c++ -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -O2 -g -DNDEBUG -std=gnu++11 -o CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.o -c /home/jorge/Escritorio/code/exts/imgui/imgui/imgui_demo.cpp",
-  "file": "/home/jorge/Escritorio/code/exts/imgui/imgui/imgui_demo.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/imgui",
+  "command": "/usr/bin/c++ -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -O2 -g -DNDEBUG -std=gnu++11 -o CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/imgui_demo.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/imgui_demo.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/imgui",
-  "command": "/usr/bin/c++ -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -O2 -g -DNDEBUG -std=gnu++11 -o CMakeFiles/imgui.dir/imgui/backends/imgui_impl_glfw.cpp.o -c /home/jorge/Escritorio/code/exts/imgui/imgui/backends/imgui_impl_glfw.cpp",
-  "file": "/home/jorge/Escritorio/code/exts/imgui/imgui/backends/imgui_impl_glfw.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/imgui",
+  "command": "/usr/bin/c++ -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -O2 -g -DNDEBUG -std=gnu++11 -o CMakeFiles/imgui.dir/imgui/backends/imgui_impl_glfw.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends/imgui_impl_glfw.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends/imgui_impl_glfw.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/exts/imgui",
-  "command": "/usr/bin/c++ -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -O2 -g -DNDEBUG -std=gnu++11 -o CMakeFiles/imgui.dir/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/jorge/Escritorio/code/exts/imgui/imgui/backends/imgui_impl_opengl3.cpp",
-  "file": "/home/jorge/Escritorio/code/exts/imgui/imgui/backends/imgui_impl_opengl3.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/exts/imgui",
+  "command": "/usr/bin/c++ -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -O2 -g -DNDEBUG -std=gnu++11 -o CMakeFiles/imgui.dir/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends/imgui_impl_opengl3.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends/imgui_impl_opengl3.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/libs/yocto",
-  "command": "/usr/bin/c++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -DYOCTO_OPENGL -I/home/jorge/Escritorio/code/libs/yocto/ext -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/fast_float/include -I/home/jorge/Escritorio/code/exts/nlohmann_json/single_include -I/home/jorge/Escritorio/code/exts/stb_image/. -I/home/jorge/Escritorio/code/exts/stb_image/stb_image -I/home/jorge/Escritorio/code/exts/tinyexr/. -I/home/jorge/Escritorio/code/exts/tinyexr/tinyexr -I/home/jorge/Escritorio/code/exts/cgltf/. -I/home/jorge/Escritorio/code/exts/cgltf/cgltf -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto.dir/yocto_bvh.cpp.o -c /home/jorge/Escritorio/code/libs/yocto/yocto_bvh.cpp",
-  "file": "/home/jorge/Escritorio/code/libs/yocto/yocto_bvh.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/libs/yocto",
+  "command": "/usr/bin/c++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -DYOCTO_OPENGL -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/ext -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/fast_float/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/nlohmann_json/single_include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/stb_image -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/tinyexr -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto.dir/yocto_bvh.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/yocto_bvh.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/yocto_bvh.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/libs/yocto",
-  "command": "/usr/bin/c++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -DYOCTO_OPENGL -I/home/jorge/Escritorio/code/libs/yocto/ext -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/fast_float/include -I/home/jorge/Escritorio/code/exts/nlohmann_json/single_include -I/home/jorge/Escritorio/code/exts/stb_image/. -I/home/jorge/Escritorio/code/exts/stb_image/stb_image -I/home/jorge/Escritorio/code/exts/tinyexr/. -I/home/jorge/Escritorio/code/exts/tinyexr/tinyexr -I/home/jorge/Escritorio/code/exts/cgltf/. -I/home/jorge/Escritorio/code/exts/cgltf/cgltf -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto.dir/yocto_shape.cpp.o -c /home/jorge/Escritorio/code/libs/yocto/yocto_shape.cpp",
-  "file": "/home/jorge/Escritorio/code/libs/yocto/yocto_shape.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/libs/yocto",
+  "command": "/usr/bin/c++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -DYOCTO_OPENGL -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/ext -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/fast_float/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/nlohmann_json/single_include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/stb_image -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/tinyexr -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto.dir/yocto_shape.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/yocto_shape.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/yocto_shape.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/libs/yocto",
-  "command": "/usr/bin/c++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -DYOCTO_OPENGL -I/home/jorge/Escritorio/code/libs/yocto/ext -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/fast_float/include -I/home/jorge/Escritorio/code/exts/nlohmann_json/single_include -I/home/jorge/Escritorio/code/exts/stb_image/. -I/home/jorge/Escritorio/code/exts/stb_image/stb_image -I/home/jorge/Escritorio/code/exts/tinyexr/. -I/home/jorge/Escritorio/code/exts/tinyexr/tinyexr -I/home/jorge/Escritorio/code/exts/cgltf/. -I/home/jorge/Escritorio/code/exts/cgltf/cgltf -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto.dir/yocto_image.cpp.o -c /home/jorge/Escritorio/code/libs/yocto/yocto_image.cpp",
-  "file": "/home/jorge/Escritorio/code/libs/yocto/yocto_image.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/libs/yocto",
+  "command": "/usr/bin/c++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -DYOCTO_OPENGL -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/ext -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/fast_float/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/nlohmann_json/single_include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/stb_image -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/tinyexr -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto.dir/yocto_image.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/yocto_image.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/yocto_image.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/libs/yocto",
-  "command": "/usr/bin/c++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -DYOCTO_OPENGL -I/home/jorge/Escritorio/code/libs/yocto/ext -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/fast_float/include -I/home/jorge/Escritorio/code/exts/nlohmann_json/single_include -I/home/jorge/Escritorio/code/exts/stb_image/. -I/home/jorge/Escritorio/code/exts/stb_image/stb_image -I/home/jorge/Escritorio/code/exts/tinyexr/. -I/home/jorge/Escritorio/code/exts/tinyexr/tinyexr -I/home/jorge/Escritorio/code/exts/cgltf/. -I/home/jorge/Escritorio/code/exts/cgltf/cgltf -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto.dir/yocto_scene.cpp.o -c /home/jorge/Escritorio/code/libs/yocto/yocto_scene.cpp",
-  "file": "/home/jorge/Escritorio/code/libs/yocto/yocto_scene.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/libs/yocto",
+  "command": "/usr/bin/c++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -DYOCTO_OPENGL -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/ext -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/fast_float/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/nlohmann_json/single_include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/stb_image -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/tinyexr -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto.dir/yocto_scene.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/yocto_scene.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/yocto_scene.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/libs/yocto",
-  "command": "/usr/bin/c++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -DYOCTO_OPENGL -I/home/jorge/Escritorio/code/libs/yocto/ext -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/fast_float/include -I/home/jorge/Escritorio/code/exts/nlohmann_json/single_include -I/home/jorge/Escritorio/code/exts/stb_image/. -I/home/jorge/Escritorio/code/exts/stb_image/stb_image -I/home/jorge/Escritorio/code/exts/tinyexr/. -I/home/jorge/Escritorio/code/exts/tinyexr/tinyexr -I/home/jorge/Escritorio/code/exts/cgltf/. -I/home/jorge/Escritorio/code/exts/cgltf/cgltf -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto.dir/yocto_trace.cpp.o -c /home/jorge/Escritorio/code/libs/yocto/yocto_trace.cpp",
-  "file": "/home/jorge/Escritorio/code/libs/yocto/yocto_trace.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/libs/yocto",
+  "command": "/usr/bin/c++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -DYOCTO_OPENGL -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/ext -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/fast_float/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/nlohmann_json/single_include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/stb_image -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/tinyexr -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto.dir/yocto_trace.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/yocto_trace.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/yocto_trace.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/libs/yocto",
-  "command": "/usr/bin/c++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -DYOCTO_OPENGL -I/home/jorge/Escritorio/code/libs/yocto/ext -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/fast_float/include -I/home/jorge/Escritorio/code/exts/nlohmann_json/single_include -I/home/jorge/Escritorio/code/exts/stb_image/. -I/home/jorge/Escritorio/code/exts/stb_image/stb_image -I/home/jorge/Escritorio/code/exts/tinyexr/. -I/home/jorge/Escritorio/code/exts/tinyexr/tinyexr -I/home/jorge/Escritorio/code/exts/cgltf/. -I/home/jorge/Escritorio/code/exts/cgltf/cgltf -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto.dir/yocto_modelio.cpp.o -c /home/jorge/Escritorio/code/libs/yocto/yocto_modelio.cpp",
-  "file": "/home/jorge/Escritorio/code/libs/yocto/yocto_modelio.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/libs/yocto",
+  "command": "/usr/bin/c++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -DYOCTO_OPENGL -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/ext -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/fast_float/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/nlohmann_json/single_include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/stb_image -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/tinyexr -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto.dir/yocto_modelio.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/yocto_modelio.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/yocto_modelio.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/libs/yocto",
-  "command": "/usr/bin/c++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -DYOCTO_OPENGL -I/home/jorge/Escritorio/code/libs/yocto/ext -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/fast_float/include -I/home/jorge/Escritorio/code/exts/nlohmann_json/single_include -I/home/jorge/Escritorio/code/exts/stb_image/. -I/home/jorge/Escritorio/code/exts/stb_image/stb_image -I/home/jorge/Escritorio/code/exts/tinyexr/. -I/home/jorge/Escritorio/code/exts/tinyexr/tinyexr -I/home/jorge/Escritorio/code/exts/cgltf/. -I/home/jorge/Escritorio/code/exts/cgltf/cgltf -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto.dir/yocto_pbrtio.cpp.o -c /home/jorge/Escritorio/code/libs/yocto/yocto_pbrtio.cpp",
-  "file": "/home/jorge/Escritorio/code/libs/yocto/yocto_pbrtio.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/libs/yocto",
+  "command": "/usr/bin/c++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -DYOCTO_OPENGL -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/ext -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/fast_float/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/nlohmann_json/single_include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/stb_image -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/tinyexr -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto.dir/yocto_pbrtio.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/yocto_pbrtio.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/yocto_pbrtio.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/libs/yocto",
-  "command": "/usr/bin/c++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -DYOCTO_OPENGL -I/home/jorge/Escritorio/code/libs/yocto/ext -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/fast_float/include -I/home/jorge/Escritorio/code/exts/nlohmann_json/single_include -I/home/jorge/Escritorio/code/exts/stb_image/. -I/home/jorge/Escritorio/code/exts/stb_image/stb_image -I/home/jorge/Escritorio/code/exts/tinyexr/. -I/home/jorge/Escritorio/code/exts/tinyexr/tinyexr -I/home/jorge/Escritorio/code/exts/cgltf/. -I/home/jorge/Escritorio/code/exts/cgltf/cgltf -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto.dir/yocto_sceneio.cpp.o -c /home/jorge/Escritorio/code/libs/yocto/yocto_sceneio.cpp",
-  "file": "/home/jorge/Escritorio/code/libs/yocto/yocto_sceneio.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/libs/yocto",
+  "command": "/usr/bin/c++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -DYOCTO_OPENGL -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/ext -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/fast_float/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/nlohmann_json/single_include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/stb_image -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/tinyexr -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto.dir/yocto_sceneio.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/yocto_sceneio.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/yocto_sceneio.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/libs/yocto",
-  "command": "/usr/bin/c++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -DYOCTO_OPENGL -I/home/jorge/Escritorio/code/libs/yocto/ext -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/fast_float/include -I/home/jorge/Escritorio/code/exts/nlohmann_json/single_include -I/home/jorge/Escritorio/code/exts/stb_image/. -I/home/jorge/Escritorio/code/exts/stb_image/stb_image -I/home/jorge/Escritorio/code/exts/tinyexr/. -I/home/jorge/Escritorio/code/exts/tinyexr/tinyexr -I/home/jorge/Escritorio/code/exts/cgltf/. -I/home/jorge/Escritorio/code/exts/cgltf/cgltf -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto.dir/yocto_gui.cpp.o -c /home/jorge/Escritorio/code/libs/yocto/yocto_gui.cpp",
-  "file": "/home/jorge/Escritorio/code/libs/yocto/yocto_gui.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/libs/yocto",
+  "command": "/usr/bin/c++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -DYOCTO_OPENGL -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/ext -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/fast_float/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/nlohmann_json/single_include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/stb_image -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/tinyexr -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto.dir/yocto_gui.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/yocto_gui.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/yocto_gui.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/libs/yocto",
-  "command": "/usr/bin/c++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -DYOCTO_OPENGL -I/home/jorge/Escritorio/code/libs/yocto/ext -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/fast_float/include -I/home/jorge/Escritorio/code/exts/nlohmann_json/single_include -I/home/jorge/Escritorio/code/exts/stb_image/. -I/home/jorge/Escritorio/code/exts/stb_image/stb_image -I/home/jorge/Escritorio/code/exts/tinyexr/. -I/home/jorge/Escritorio/code/exts/tinyexr/tinyexr -I/home/jorge/Escritorio/code/exts/cgltf/. -I/home/jorge/Escritorio/code/exts/cgltf/cgltf -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto.dir/yocto_cutrace.cpp.o -c /home/jorge/Escritorio/code/libs/yocto/yocto_cutrace.cpp",
-  "file": "/home/jorge/Escritorio/code/libs/yocto/yocto_cutrace.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/libs/yocto",
+  "command": "/usr/bin/c++ -DJSON_DIAGNOSTICS=0 -DJSON_USE_IMPLICIT_CONVERSIONS=1 -DYOCTO_OPENGL -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/ext -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/fast_float/include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/nlohmann_json/single_include -I/home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/stb_image/stb_image -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr/tinyexr -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/cgltf/cgltf -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto.dir/yocto_cutrace.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/yocto_cutrace.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/yocto_cutrace.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/libs/yocto_examples",
-  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/code/libs -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto_examples.dir/yocto_grade.cpp.o -c /home/jorge/Escritorio/code/libs/yocto_examples/yocto_grade.cpp",
-  "file": "/home/jorge/Escritorio/code/libs/yocto_examples/yocto_grade.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/libs/yocto_examples",
+  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/RaytracingCornellbox/libs -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto_examples.dir/yocto_grade.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/libs/yocto_examples/yocto_grade.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto_examples/yocto_grade.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/libs/yocto_examples",
-  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/code/libs -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto_examples.dir/yocto_raytrace.cpp.o -c /home/jorge/Escritorio/code/libs/yocto_examples/yocto_raytrace.cpp",
-  "file": "/home/jorge/Escritorio/code/libs/yocto_examples/yocto_raytrace.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/libs/yocto_examples",
+  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/RaytracingCornellbox/libs -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yocto_examples.dir/yocto_raytrace.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/libs/yocto_examples/yocto_raytrace.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto_examples/yocto_raytrace.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/apps",
-  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/code/libs -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/ytonemap.dir/ytonemap.cpp.o -c /home/jorge/Escritorio/code/apps/ytonemap.cpp",
-  "file": "/home/jorge/Escritorio/code/apps/ytonemap.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/apps",
+  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/RaytracingCornellbox/libs -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/ytonemap.dir/ytonemap.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/apps/ytonemap.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/apps/ytonemap.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/apps",
-  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/code/libs -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/ycolorgrade.dir/ycolorgrade.cpp.o -c /home/jorge/Escritorio/code/apps/ycolorgrade.cpp",
-  "file": "/home/jorge/Escritorio/code/apps/ycolorgrade.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/apps",
+  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/RaytracingCornellbox/libs -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/ycolorgrade.dir/ycolorgrade.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/apps/ycolorgrade.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/apps/ycolorgrade.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/apps",
-  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/code/libs -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/ytrace.dir/ytrace.cpp.o -c /home/jorge/Escritorio/code/apps/ytrace.cpp",
-  "file": "/home/jorge/Escritorio/code/apps/ytrace.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/apps",
+  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/RaytracingCornellbox/libs -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/ytrace.dir/ytrace.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/apps/ytrace.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/apps/ytrace.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/apps",
-  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/code/libs -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yview.dir/yview.cpp.o -c /home/jorge/Escritorio/code/apps/yview.cpp",
-  "file": "/home/jorge/Escritorio/code/apps/yview.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/apps",
+  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/RaytracingCornellbox/libs -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yview.dir/yview.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/apps/yview.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/apps/yview.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/apps",
-  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/code/libs -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yimdiff.dir/yimdiff.cpp.o -c /home/jorge/Escritorio/code/apps/yimdiff.cpp",
-  "file": "/home/jorge/Escritorio/code/apps/yimdiff.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/apps",
+  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/RaytracingCornellbox/libs -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yimdiff.dir/yimdiff.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/apps/yimdiff.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/apps/yimdiff.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/apps",
-  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/code/libs -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yimalpha.dir/yimalpha.cpp.o -c /home/jorge/Escritorio/code/apps/yimalpha.cpp",
-  "file": "/home/jorge/Escritorio/code/apps/yimalpha.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/apps",
+  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/RaytracingCornellbox/libs -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yimalpha.dir/yimalpha.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/apps/yimalpha.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/apps/yimalpha.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/apps",
-  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/code/libs -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yconvert.dir/yconvert.cpp.o -c /home/jorge/Escritorio/code/apps/yconvert.cpp",
-  "file": "/home/jorge/Escritorio/code/apps/yconvert.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/apps",
+  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/RaytracingCornellbox/libs -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yconvert.dir/yconvert.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/apps/yconvert.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/apps/yconvert.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/apps",
-  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/code/libs -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yconverts.dir/yconverts.cpp.o -c /home/jorge/Escritorio/code/apps/yconverts.cpp",
-  "file": "/home/jorge/Escritorio/code/apps/yconverts.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/apps",
+  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/RaytracingCornellbox/libs -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yconverts.dir/yconverts.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/apps/yconverts.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/apps/yconverts.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/apps",
-  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/code/libs -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/ysamples.dir/ysamples.cpp.o -c /home/jorge/Escritorio/code/apps/ysamples.cpp",
-  "file": "/home/jorge/Escritorio/code/apps/ysamples.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/apps",
+  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/RaytracingCornellbox/libs -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/ysamples.dir/ysamples.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/apps/ysamples.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/apps/ysamples.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/examples",
-  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/code/libs -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/ygrade.dir/ygrade.cpp.o -c /home/jorge/Escritorio/code/examples/ygrade.cpp",
-  "file": "/home/jorge/Escritorio/code/examples/ygrade.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/examples",
+  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/RaytracingCornellbox/libs -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/ygrade.dir/ygrade.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/examples/ygrade.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/examples/ygrade.cpp"
 },
 {
-  "directory": "/home/jorge/Escritorio/code/build/examples",
-  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/code/libs -I/home/jorge/Escritorio/code/libs/yocto/.. -I/home/jorge/Escritorio/code/exts/glad/. -I/home/jorge/Escritorio/code/exts/glad/glad -I/home/jorge/Escritorio/code/exts/imgui/. -I/home/jorge/Escritorio/code/exts/imgui/imgui -I/home/jorge/Escritorio/code/exts/imgui/imgui/backends -I/home/jorge/Escritorio/code/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yraytrace.dir/yraytrace.cpp.o -c /home/jorge/Escritorio/code/examples/yraytrace.cpp",
-  "file": "/home/jorge/Escritorio/code/examples/yraytrace.cpp"
+  "directory": "/home/jorge/Escritorio/RaytracingCornellbox/build/examples",
+  "command": "/usr/bin/c++ -DYOCTO_OPENGL -I/home/jorge/Escritorio/RaytracingCornellbox/libs -I/home/jorge/Escritorio/RaytracingCornellbox/libs/yocto/.. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glad/glad -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/. -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui -I/home/jorge/Escritorio/RaytracingCornellbox/exts/imgui/imgui/backends -I/home/jorge/Escritorio/RaytracingCornellbox/exts/glfw/include -O2 -g -DNDEBUG -std=gnu++17 -o CMakeFiles/yraytrace.dir/yraytrace.cpp.o -c /home/jorge/Escritorio/RaytracingCornellbox/examples/yraytrace.cpp",
+  "file": "/home/jorge/Escritorio/RaytracingCornellbox/examples/yraytrace.cpp"
 }
 ]

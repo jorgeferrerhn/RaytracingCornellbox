@@ -1,4 +1,4 @@
-# Install script for directory: /home/jorge/Escritorio/code/exts/tinyexr
+# Install script for directory: /home/jorge/Escritorio/RaytracingCornellbox/exts/tinyexr
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

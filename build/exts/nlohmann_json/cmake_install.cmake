@@ -1,4 +1,4 @@
-# Install script for directory: /home/jorge/Escritorio/code/exts/nlohmann_json
+# Install script for directory: /home/jorge/Escritorio/RaytracingCornellbox/exts/nlohmann_json
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
