@@ -88,14 +88,14 @@
         0.7099999785423279,
         0.6800000071525574
       ],
-      "type": "matte"
+      "type": "volumetric"
     },
     {
       "name": "tallbox",
       "color": [
-        0.7250000238418579,
-        0.7099999785423279,
-        0.6800000071525574
+        0.2,
+        0.2,
+        0.2
       ],
       "type": "volumetric"
     }
@@ -120,6 +120,7 @@
     {
       "name": "light",
       "uri": "shapes/light.ply"
+
     },
     {
       "name": "rightwall",
@@ -158,7 +159,21 @@
     {
       "name": "light",
       "material": 4,
-      "shape": 4
+      "shape": 4,
+      "frame": [
+        2.5,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ]
     },
     {
       "name": "rightwall",

@@ -180,12 +180,16 @@ static vec4f shade_raytrace(const scene_data& scene, const scene_bvh& bvh,
                                 bounce + 1, rng, params));
       }
     } break;
-    case material_type::volumetric: {
-      // material.scaterring = random_in_unit_sphere()
-      auto incoming = sample_hemisphere_cos(normal, rand2f(rng));
-      radiance += color * xyz(shade_raytrace(scene, bvh, {position, incoming},
-                              bounce + 1, rng, params));
-    } break;
+      case material_type::volumetric: {
+          auto mnormal = (roughness == 0) ? normal : sample_hemisphere_cospower(exponent, normal, rand2f(rng));
+          if (rand1f(rng) < mean(fresnel_schlick({0.04, 0.04, 0.04}, mnormal, outgoing))) {
+              auto incoming = reflect(outgoing, mnormal);
+              radiance += xyz(shade_raytrace(scene, bvh, {position, incoming}, bounce + 1, rng, params));
+          } else {
+              auto incoming = sample_hemisphere_isotropic(rand2f(rng));
+              radiance += color * xyz(shade_raytrace(scene, bvh, {position, incoming}, bounce + 1, rng, params));
+          }
+      } break;
 
     default: break;
   }

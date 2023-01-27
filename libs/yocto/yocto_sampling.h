@@ -98,10 +98,16 @@ inline void shuffle(vector<T>& vals, rng_state& rng);
 
 }  // namespace yocto
 
+
+
+
 // -----------------------------------------------------------------------------
 // MONETACARLO SAMPLING FUNCTIONS
 // -----------------------------------------------------------------------------
 namespace yocto {
+
+//IMPLEMENTATION FOR RAYTRACING
+inline vec3f sample_hemisphere_isotropic(const vec3f& normal, const vec2f& ruv);
 
 // Sample an hemispherical direction with uniform distribution.
 inline vec3f sample_hemisphere(const vec2f& ruv);
@@ -176,10 +182,23 @@ inline float sample_discrete_pdf(const vector<float>& cdf, int idx);
 //
 // -----------------------------------------------------------------------------
 
+
+
 // -----------------------------------------------------------------------------
 // IMPLEMENTATION FOR RANDOM NUMBER GENERATION
 // -----------------------------------------------------------------------------
 namespace yocto {
+
+
+    // IMPLEMENTATION FOR RAYTRACING
+
+inline vec3f sample_hemisphere_isotropic(const vec2f& ruv) {
+    auto z = ruv.y;
+    auto r = sqrt(1 - z * z);
+    auto phi = 2 * pif * ruv.x;
+    auto local_direction = vec3f{r * cos(phi), r * sin(phi), z};
+    return local_direction;
+}
 
 // PCG random numbers from http://www.pcg-random.org/
 
