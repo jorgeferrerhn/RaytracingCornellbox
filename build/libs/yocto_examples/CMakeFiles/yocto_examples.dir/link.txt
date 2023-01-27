@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/jorge/Escritorio/code/bin/libyocto_examples.a CMakeFiles/yocto_examples.dir/yocto_grade.cpp.o CMakeFiles/yocto_examples.dir/yocto_raytrace.cpp.o
+/usr/bin/ranlib /home/jorge/Escritorio/code/bin/libyocto_examples.a

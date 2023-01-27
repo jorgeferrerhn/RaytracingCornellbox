@@ -1,0 +1,7 @@
+/snap/clion/219/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/219/bin/ninja/linux/ninja -G Ninja -S /home/jorge/Escritorio/code -B /home/jorge/Escritorio/code/cmake-build-debug
+-- Tests are disabled. Set FASTFLOAT_TEST to ON to run tests.
+-- Using the single-header code from /home/jorge/Escritorio/code/exts/nlohmann_json/single_include/
+-- Using X11 for window creation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jorge/Escritorio/code/cmake-build-debug

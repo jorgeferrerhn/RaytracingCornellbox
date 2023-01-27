@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/jorge/Escritorio/code/bin/libcgltf.a CMakeFiles/cgltf.dir/cgltf/cgltf.c.o CMakeFiles/cgltf.dir/cgltf/cgltf_write.c.o
+/usr/bin/ranlib /home/jorge/Escritorio/code/bin/libcgltf.a

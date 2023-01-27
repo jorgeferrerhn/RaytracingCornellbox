@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/jorge/Escritorio/code/bin/libtinyexr.a CMakeFiles/tinyexr.dir/tinyexr/tinyexr.cpp.o
+/usr/bin/ranlib /home/jorge/Escritorio/code/bin/libtinyexr.a
