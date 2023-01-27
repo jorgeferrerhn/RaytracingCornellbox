@@ -6,4 +6,4 @@ Original code: https://github.com/xelatihy/yocto-gl
 
 # Instructions for compiling: 
 Once created the build/ directory: 
-`cd build; cmake ..; cmake --build . `
+`mkdir build; cd build; cmake ..; cmake --build . `
