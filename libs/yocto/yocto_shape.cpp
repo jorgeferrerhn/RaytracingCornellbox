@@ -634,6 +634,9 @@ shape_data make_bulged_recty(const vec2i& steps, const vec2f& scale,
   return shape;
 }
 
+// Make the constant medium for the example of cornellbox
+
+
 // Make a box.
 shape_data make_box(
     const vec3i& steps, const vec3f& scale, const vec3f& uvscale) {
