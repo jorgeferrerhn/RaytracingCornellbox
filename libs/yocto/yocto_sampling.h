@@ -190,7 +190,7 @@ inline float sample_discrete_pdf(const vector<float>& cdf, int idx);
 namespace yocto {
 
 
-    // IMPLEMENTATION FOR RAYTRACING
+// IMPLEMENTATION FOR RAYTRACING
 
 inline vec3f sample_hemisphere_isotropic(const vec2f& ruv) {
     auto z = ruv.y;

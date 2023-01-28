@@ -824,6 +824,7 @@ inline prim_intersection intersect_triangle(
   return {{u, v}, t, true};
 }
 
+
 // Intersect a ray with a quad.
 inline prim_intersection intersect_quad(const ray3f& ray, const vec3f& p0,
     const vec3f& p1, const vec3f& p2, const vec3f& p3) {

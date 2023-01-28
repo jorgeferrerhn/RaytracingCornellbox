@@ -178,6 +178,7 @@ vector<string> fvshape_stats(const fvshape_data& shape, bool verbose = false);
 // -----------------------------------------------------------------------------
 namespace yocto {
 
+
 // Make a plane.
 shape_data make_rect(const vec2i& steps = {1, 1}, const vec2f& scale = {1, 1},
     const vec2f& uvscale = {1, 1});
@@ -193,9 +194,16 @@ shape_data make_bulged_recty(const vec2i& steps = {1, 1},
 // Make a box.
 shape_data make_box(const vec3i& steps = {1, 1, 1},
     const vec3f& scale = {1, 1, 1}, const vec3f& uvscale = {1, 1, 1});
+
+
 shape_data make_rounded_box(const vec3i& steps = {1, 1, 1},
     const vec3f& scale = {1, 1, 1}, const vec3f& uvscale = {1, 1, 1},
     float radius = 0.3f);
+
+//Make a constant medium for the volumetric example
+shape_data make_constant_medium(
+    const vec3i& steps = {1, 1, 1}, const vec3f& scale = {1, 1, 1}, const vec3f& uvscale = {1, 1, 1});
+
 // Make a quad stack
 shape_data make_rect_stack(const vec3i& steps = {1, 1, 1},
     const vec3f& scale = {1, 1, 1}, const vec2f& uvscale = {1, 1});
@@ -222,6 +230,8 @@ shape_data make_disk(int steps = 32, float scale = 1, float uvscale = 1);
 // Make a bulged disk
 shape_data make_bulged_disk(
     int steps = 32, float scale = 1, float uvscale = 1, float height = 0.3f);
+
+
 // Make a uv disk
 shape_data make_uvdisk(const vec2i& steps = {32, 32}, float scale = 1,
     const vec2f& uvscale = {1, 1});

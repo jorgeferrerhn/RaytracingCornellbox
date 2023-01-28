@@ -634,7 +634,6 @@ shape_data make_bulged_recty(const vec2i& steps, const vec2f& scale,
   return shape;
 }
 
-// Make the constant medium for the example of cornellbox
 
 
 // Make a box.
@@ -722,6 +721,22 @@ shape_data make_rounded_box(const vec3i& steps, const vec3f& scale,
     }
   }
   return shape;
+}
+
+// Make the constant medium for the example of cornellbox
+shape_data make_constant_medium(
+    const vec3i& steps, const vec3f& scale, const vec3f& uvscale) {
+
+      //Make two bounding boxes: one inside another
+      auto outside_shape  = make_box(steps, scale, uvscale);
+      auto inside_shape = make_box(steps, scale, uvscale);
+
+      // Merge the two objects
+      merge_shape_inplace(outside_shape, inside_shape);
+
+
+      return outside_shape;
+
 }
 
 // Make a quad stack
@@ -3330,6 +3345,10 @@ void make_bulged_recty(vector<vec4i>& quads, vector<vec3f>& positions,
   for (auto& normal : normals) normal = {normal.x, normal.z, normal.y};
 }
 
+
+
+
+
 // Make a cube.
 void make_box(vector<vec4i>& quads, vector<vec3f>& positions,
     vector<vec3f>& normals, vector<vec2f>& texcoords, const vec3i& steps,
@@ -3577,6 +3596,10 @@ void make_bulged_disk(vector<vec4i>& quads, vector<vec3f>& positions,
     }
   }
 }
+
+
+
+
 
 // Generate a uvdisk
 void make_uvdisk(vector<vec4i>& quads, vector<vec3f>& positions,
